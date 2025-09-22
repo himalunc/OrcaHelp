@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="Generator" content="iWeb 3.0.2" />
+    <meta name="iWeb-Build" content="local-build-20150109" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <meta name="viewport" content="width=700" />
+    <title>Status and Error Logging</title>
+    <link rel="stylesheet" type="text/css" media="screen,print" href="Logging_files/Logging.css" />
+    <!--[if lt IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='Logging_files/LoggingIE.css'/><![endif]-->
+    <!--[if gte IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='Media/IE8.css'/><![endif]-->
+    <script type="text/javascript" src="Scripts/iWebSite.js"></script>
+    <script type="text/javascript" src="Scripts/Widgets/SharedResources/WidgetCommon.js"></script>
+    <script type="text/javascript" src="Scripts/Widgets/Navbar/navbar.js"></script>
+    <script type="text/javascript" src="Scripts/iWebImage.js"></script>
+    <script type="text/javascript" src="Logging_files/Logging.js"></script>
+  </head>
+  <body style="background: rgb(255, 255, 255); margin: 0pt; " onload="onPageLoad();" onunload="onPageUnload();">
+    <div style="text-align: center; ">
+      <div style="margin-bottom: 0px; margin-left: auto; margin-right: auto; margin-top: 0px; overflow: hidden; position: relative; word-wrap: break-word;  background: transparent; text-align: left; width: 700px; " id="body_content">
+        <div style="margin-left: 0px; position: relative; width: 700px; z-index: 0; " id="nav_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+          <div class="com-apple-iweb-widget-navbar flowDefining" id="widget0" style="margin-left: 35px; margin-top: 0px; opacity: 1.00; position: relative; width: 630px; z-index: 1; ">
+    
+            <div id="widget0-navbar" class="navbar">
+
+      
+              <div id="widget0-bg" class="navbar-bg">
+
+        
+                <ul id="widget0-navbar-list" class="navbar-list">
+ <li></li> 
+</ul>
+                
+      
+</div>
+              
+    
+</div>
+          </div>
+          <script type="text/javascript"><!--//--><![CDATA[//><!--
+new NavBar('widget0', 'Scripts/Widgets/Navbar', 'Scripts/Widgets/SharedResources', '.', {"path-to-root": "", "navbar-css": ".navbar {\n\tfont-family: Arial, sans-serif;\n\tfont-size: 1em;\n\tcolor: #666;\n\tmargin: 9px 0px 6px 0px;\n\tline-height: 30px;\n}\n\n.navbar-bg {\n\ttext-align: center;\n}\n\n.navbar-bg ul {\n\tlist-style: none;\n\tmargin: 0px;\n\tpadding: 0px;\n}\n\n\nli {\n\tlist-style-type: none;\n\tdisplay: inline;\n\tpadding: 0px 10px 0px 10px;\n}\n\n\nli a {\n\ttext-decoration: none;\n\tcolor: #666;\n}\n\nli a:visited {\n\ttext-decoration: none;\n\tcolor: #666;\n}\n\nli a:hover\r{\r\n \tcolor: #463C3C;\n\ttext-decoration: none;\r}\n\n\nli.current-page a\r{\r\t color: #463C3C;\n\ttext-decoration: none;\n\tfont-weight: bold;\r\r}", "current-page-GUID": "4CC03DAC-6242-4E54-A81B-B288B093E4B5", "isCollectionPage": "NO"});
+//--><!]]></script>
+          <div style="clear: both; height: 0px; line-height: 0px; " class="spacer"> </div>
+        </div>
+        <div style="height: 73px; margin-left: 0px; position: relative; width: 700px; z-index: 10; " id="header_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+          <div id="id1" style="height: 50px; left: 35px; position: absolute; top: 23px; width: 630px; z-index: 1; " class="style_SkipStroke shape-with-text">
+            <div class="text-content style_External_630_50" style="padding: 0px; ">
+              <div class="style">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="Header">Status and Error Logging</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 1px; width: 630px;  height: 1px; left: 35px; position: absolute; top: 3px; width: 630px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 630px; ">
+              <img src="Logging_files/shapeimage_1.jpg" alt="" style="height: 1px; left: 0px; position: absolute; top: 0px; width: 630px; " />
+            </div>
+          </div>
+        </div>
+        <div style="margin-left: 0px; position: relative; width: 700px; z-index: 5; " id="body_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+          <div id="id2" style="height: 142px; left: 25px; position: absolute; top: 1097px; width: 683px; z-index: 1; " class="style_SkipStroke_1 shape-with-text">
+            <div class="text-content style_External_683_142" style="padding: 0px; ">
+              <div class="style">
+                <p style="padding-top: 0pt; " class="Body"><span style="line-height: 34px; " class="style_1">Alarms</span><br /></p>
+                <p class="Body"><br /></p>
+                <p style="padding-bottom: 0pt; " class="Body">The Alarm Log section keeps a running list of all alarms. You can apply a filter to see just the types you’re interested in. Note that the alarm log is persistent and only cleared manually. You should clear the alarms once in a while to prevent the list from getting too long. A very long list will slow down ORCA start-up.</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 436px; width: 625px;  height: 436px; left: 28px; position: absolute; top: 152px; width: 625px; z-index: 1; " class="tinyText style_SkipStroke_2 stroke_0">
+            <img src="Logging_files/Screen%20shot%202011-09-29%20at%203.01.23%20PM.png" alt="" style="border: none; height: 437px; width: 625px; " />
+          </div>
+          
+
+
+          <div style="height: 418px; width: 599px;  height: 418px; left: -14px; position: absolute; top: 714px; width: 599px; z-index: 1; " class="tinyText style_SkipStroke_2 stroke_0">
+            <img src="Logging_files/Screen%20shot%202011-09-29%20at%203.01.31%20PM.png" alt="" style="border: none; height: 419px; width: 599px; " />
+          </div>
+          
+
+
+          <div style="height: 437px; width: 626px;  height: 437px; left: 1px; position: absolute; top: 1713px; width: 626px; z-index: 1; " class="tinyText style_SkipStroke_2 stroke_0">
+            <img src="Logging_files/Screen%20shot%202011-09-29%20at%203.02.43%20PM.png" alt="" style="border: none; height: 437px; width: 627px; " />
+          </div>
+          <div style="height: 1px; line-height: 1px; " class="tinyText"> </div>
+          <div style="margin-left: 17px; margin-top: 7px; position: relative; width: 683px; z-index: 1; " class="style_SkipStroke_1 shape-with-text flowDefining">
+            <div class="text-content style_External_683_150" style="padding: 0px; ">
+              <div class="style">
+                <div class="paragraph Body" style="padding-top: 0pt; "><div style="height: 66px; width: 66px;  clear: left; float: left; height: 66px; margin: 6px 6px 6px 0px; position: relative; width: 66px; " class="tinyText style_SkipStroke_3 inline-block stroke_0"><img src="Logging_files/statusWindow.png" alt="" style="border: none; height: 66px; width: 66px; " /></div>The status log keeps a record of ORCA system activities and can be opened from the main menu <span class="style_2">Windows-&gt;Status Log</span>. At the end of every run, the status log from the duration of that run is copied to a location specified by the <a title="file://localhost/Users/markhowe/Sites/Data_Chain/Data_Storage.html" href="file://localhost/Users/markhowe/Sites/Data_Chain/Data_Storage.html">disk object</a>. The copied status log also has a summary of any errors that had been logged during the run. When the status log gets too long (100K or so), the oldest 1/3 is deleted.<br /></div>
+                <p class="Body"><br /></p>
+                <p style="padding-bottom: 0pt; " class="Body">Also the status log content can be emailed.</p>
+              </div>
+              <div style="clear: both; height: 0px; line-height: 0px; " class="tinyText"> </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 17px; width: 175px;  height: 16px; left: 166px; position: absolute; top: 460px; width: 173px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 173px; ">
+              <img src="Logging_files/shapeimage_2.png" alt="" style="height: 17px; left: 0px; margin-left: -1px; position: absolute; top: 0px; width: 175px; " />
+            </div>
+          </div>
+          
+
+
+          <div style="height: 65px; width: 187px;  height: 63px; left: 339px; position: absolute; top: 471px; width: 187px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 187px; ">
+              <img src="Logging_files/shapeimage_3.png" alt="" style="height: 65px; left: 0px; margin-top: -1px; position: absolute; top: 0px; width: 187px; " />
+            </div>
+          </div>
+          
+
+
+          <div style="height: 19px; width: 85px;  height: 18px; left: 80px; position: absolute; top: 503px; width: 83px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 83px; ">
+              <img src="Logging_files/shapeimage_4.png" alt="" style="height: 19px; left: 0px; margin-left: -1px; position: absolute; top: 0px; width: 85px; " />
+            </div>
+          </div>
+          
+
+
+          <div style="height: 40px; width: 9px;  height: 40px; left: 154px; position: absolute; top: 522px; width: 7px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 7px; ">
+              <img src="Logging_files/shapeimage_5.png" alt="" style="height: 40px; left: 0px; margin-left: -1px; position: absolute; top: 0px; width: 9px; " />
+            </div>
+          </div>
+          
+
+
+          <div style="height: 52px; width: 99px;  height: 51px; left: 73px; position: absolute; top: 427px; width: 98px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 98px; ">
+              <img src="Logging_files/shapeimage_6.png" alt="" style="height: 52px; left: 0px; position: absolute; top: 0px; width: 99px; " />
+            </div>
+          </div>
+          
+
+
+          <div style="height: 95px; width: 168px;  height: 93px; left: 153px; position: absolute; top: 476px; width: 168px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 168px; ">
+              <img src="Logging_files/shapeimage_7.png" alt="" style="height: 95px; left: 0px; margin-top: -1px; position: absolute; top: 0px; width: 168px; " />
+            </div>
+          </div>
+          
+
+
+          <div id="id3" style="height: 76px; left: 481px; position: absolute; top: 482px; width: 89px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_1">
+            <div class="text-content graphic_textbox_layout_style_default_External_87_74" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style">Alarms and other serious messages are posted in red</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div id="id4" style="height: 60px; left: 71px; position: absolute; top: 547px; width: 183px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_2">
+            <div class="text-content graphic_textbox_layout_style_default_External_181_58" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style">Total number of errors that been posted on the error log page would be listed here</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 27px; width: 89px;  height: 25px; left: 444px; position: absolute; top: 1007px; width: 87px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 87px; ">
+              <img src="Logging_files/shapeimage_8.png" alt="" style="height: 27px; left: 0px; margin-left: -1px; margin-top: -1px; position: absolute; top: 0px; width: 89px; " />
+            </div>
+          </div>
+          
+
+
+          <div style="height: 48px; width: 32px;  height: 48px; left: 500px; position: absolute; top: 1032px; width: 30px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 30px; ">
+              <img src="Logging_files/shapeimage_9.png" alt="" style="height: 48px; left: 0px; margin-left: -1px; position: absolute; top: 0px; width: 32px; " />
+            </div>
+          </div>
+          
+
+
+          <div id="id5" style="height: 43px; left: 495px; position: absolute; top: 1047px; width: 165px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_3">
+            <div class="text-content graphic_textbox_layout_style_default_External_163_41" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style">Clears the error count without removing any entries</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div id="id6" style="height: 76px; left: 100px; position: absolute; top: 852px; width: 223px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_4">
+            <div class="text-content graphic_textbox_layout_style_default_External_221_74" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style">Errors will be listed here in a tree format. Entries can be removed by selecting with the mouse and using the <span class="style_2">delete</span> key.</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div id="id7" style="height: 60px; left: 272px; position: absolute; top: 547px; width: 124px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_5">
+            <div class="text-content graphic_textbox_layout_style_default_External_122_58" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style">Time the message was posted, mmddyy 24hr time</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div id="id8" style="height: 101px; left: 17px; position: absolute; top: 625px; width: 683px; z-index: 1; " class="style_SkipStroke_1 shape-with-text">
+            <div class="text-content style_External_683_101" style="padding: 0px; ">
+              <div class="style">
+                <p style="padding-top: 0pt; " class="Body"><span style="line-height: 34px; " class="style_1">Error Logging</span><br /></p>
+                <p class="Body"><br /></p>
+                <p style="padding-bottom: 0pt; " class="Body">System-wide errors are counted and logged in a tree hierarchy, with each level of the tree labeled with a title and the total of all the errors in the children of that branch.</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div id="id9" style="height: 101px; left: 40px; position: absolute; top: 1621px; width: 683px; z-index: 1; " class="style_SkipStroke_1 shape-with-text">
+            <div class="text-content style_External_683_101" style="padding: 0px; ">
+              <div class="style">
+                <p style="padding-top: 0pt; " class="Body"><span style="line-height: 34px; " class="style_1">Log Book</span><br /></p>
+                <p class="Body"><br /></p>
+                <p style="padding-bottom: 0pt; " class="Body">You can keep a log book of activities using the ORCA log book. The log book content can be emailed.</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 94px; width: 453px;  height: 92px; left: 102px; position: absolute; top: 1920px; width: 453px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 453px; ">
+              <img src="Logging_files/shapeimage_10.png" alt="" style="height: 94px; left: 0px; margin-top: -1px; position: absolute; top: 0px; width: 453px; " />
+            </div>
+          </div>
+          
+
+
+          <div id="id10" style="height: 76px; left: 541px; position: absolute; top: 2072px; width: 104px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_6">
+            <div class="text-content graphic_textbox_layout_style_default_External_102_74" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style">Note that you can drag and drop pictures into the log book</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 20px; width: 167px;  height: 19px; left: 46px; position: absolute; top: 1787px; width: 165px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 165px; ">
+              <img src="Logging_files/shapeimage_11.png" alt="" style="height: 20px; left: 0px; margin-left: -1px; position: absolute; top: 0px; width: 167px; " />
+            </div>
+          </div>
+          
+
+
+          <div style="height: 9px; width: 67px;  height: 7px; left: 211px; position: absolute; top: 1796px; width: 67px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 67px; ">
+              <img src="Logging_files/shapeimage_12.png" alt="" style="height: 9px; left: 0px; margin-top: -1px; position: absolute; top: 0px; width: 67px; " />
+            </div>
+          </div>
+          
+
+
+          <div id="id11" style="height: 26px; left: 265px; position: absolute; top: 1792px; width: 190px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_7">
+            <div class="text-content graphic_textbox_layout_style_default_External_188_24" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style">Name of the current log book file</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div id="id12" style="height: 101px; left: -6px; position: absolute; top: 2131px; width: 683px; z-index: 1; " class="style_SkipStroke_1 shape-with-text">
+            <div class="text-content style_External_683_101" style="padding: 0px; ">
+              <div class="style">
+                <p style="padding-top: 0pt; " class="Body"><span style="line-height: 34px; " class="style_1">E-Mail</span><br /></p>
+                <p class="Body"><br /></p>
+                <p style="padding-bottom: 0pt; " class="Body">If the LogBook or the Status Log is the key window, then you can send their content via email. Just select 'Mail Content' from the main menu:</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 53px; width: 235px;  height: 51px; left: 30px; position: absolute; top: 2313px; width: 235px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 235px; ">
+              <img src="Logging_files/shapeimage_13.png" alt="" style="height: 53px; left: 0px; margin-top: -1px; position: absolute; top: 0px; width: 235px; " />
+            </div>
+          </div>
+          
+
+
+          <div style="height: 57px; width: 106px;  height: 55px; left: 372px; position: absolute; top: 2313px; width: 106px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 106px; ">
+              <img src="Logging_files/shapeimage_14.png" alt="" style="height: 57px; left: 0px; margin-top: -1px; position: absolute; top: 0px; width: 106px; " />
+            </div>
+          </div>
+          
+
+
+          <div style="height: 75px; width: 300px;  height: 75px; left: 134px; position: absolute; top: 2245px; width: 300px; z-index: 1; " class="tinyText style_SkipStroke_2 stroke_0">
+            <img src="Logging_files/Picture%204.png" alt="" style="border: none; height: 75px; width: 301px; " />
+          </div>
+          
+
+
+          <div id="id13" style="height: 329px; left: 1px; position: absolute; top: 2730px; width: 693px; z-index: 1; " class="style_SkipStroke_1 shape-with-text">
+            <div class="text-content style_External_693_329" style="padding: 0px; ">
+              <div class="style">
+                <p style="padding-top: 0pt; " class="Body"><span style="line-height: 34px; " class="style_1">Scripting</span><br /></p>
+                <p class="Body">You can email the entire status log from a script:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_1"><span style="line-height: 14px; " class="style_3">function</span><span style="line-height: 14px; " class="style_4"> main() <br /></span></p>
+                <p class="paragraph_style_1"><span style="line-height: 14px; " class="style_4">{<br /></span></p>
+                <p class="paragraph_style_1"><span style="line-height: 14px; " class="style_4">    s = </span><span style="line-height: 14px; " class="style_3">find</span><span style="line-height: 14px; " class="style_4">(ORScriptTaskModel,1);<br /></span></p>
+                <p class="paragraph_style_1"><span style="line-height: 14px; " class="style_4">    [s sendStatusLogTo:</span><span style="line-height: 14px; " class="style_5">&quot;</span><a title="mailto:dgp@physics.unc.edu" href="mailto:dgp@physics.unc.edu" style="line-height: 14px; " class="style_6">somebody@somewhere.unc.edu</a><span style="line-height: 14px; " class="style_5">&quot;</span><span style="line-height: 14px; " class="style_4"> cc:</span><span style="line-height: 14px; " class="style_7">nil</span><span style="line-height: 14px; " class="style_4"> subject:</span><span style="line-height: 14px; " class="style_5">&quot;ORCA status log&quot;</span><span style="line-height: 14px; " class="style_4">];<br /></span></p>
+                <p class="paragraph_style_1"><span style="line-height: 14px; " class="style_4">}<br /></span></p>
+                <p class="paragraph_style_1"><span style="line-height: 14px; " class="style_4"><br /></span></p>
+                <p class="Body">You can email the most recent by number of seconds. In the following case the last 20 seconds are extracted and sent:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_1"><span style="line-height: 14px; " class="style_3">function</span><span style="line-height: 14px; " class="style_4"> main() <br /></span></p>
+                <p class="paragraph_style_1"><span style="line-height: 14px; " class="style_4">{<br /></span></p>
+                <p class="paragraph_style_1"><span style="line-height: 14px; " class="style_4">    s = </span><span style="line-height: 14px; " class="style_3">find</span><span style="line-height: 14px; " class="style_4">(ORScriptTaskModel,1);<br /></span></p>
+                <p class="paragraph_style_1"><span style="line-height: 14px; " class="style_4">    [s sendStatusLogTo:</span><span style="line-height: 14px; " class="style_5">&quot;</span><a title="mailto:dgp@physics.unc.edu" href="mailto:dgp@physics.unc.edu" style="line-height: 14px; " class="style_6">somebody@somewhere.unc.edu</a><span style="line-height: 14px; " class="style_5">&quot;</span><span style="line-height: 14px; " class="style_4"> cc:</span><span style="line-height: 14px; " class="style_7">nil</span><span style="line-height: 14px; " class="style_4"> subject:</span><span style="line-height: 14px; " class="style_5">&quot;ORCA status log from ORCAScrip&quot;</span><span style="line-height: 14px; " class="style_4"> </span><span style="line-height: 14px; " class="style_8">lastSeconds</span><span style="line-height: 14px; " class="style_4">:20];<br /></span></p>
+                <p class="paragraph_style_1"><span style="line-height: 14px; " class="style_4">}</span><br /></p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 373px; width: 456px;  height: 373px; left: 15px; position: absolute; top: 1259px; width: 456px; z-index: 1; " class="tinyText style_SkipStroke_2 stroke_0">
+            <img src="Logging_files/Screen%20shot%202011-09-29%20at%202.52.39%20PM.png" alt="" style="border: none; height: 374px; width: 456px; " />
+          </div>
+          
+
+
+          <div style="height: 5px; width: 91px;  height: 3px; left: 422px; position: absolute; top: 1530px; width: 91px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 91px; ">
+              <img src="Logging_files/shapeimage_15.png" alt="" style="height: 5px; left: 0px; margin-top: -1px; position: absolute; top: 0px; width: 91px; " />
+            </div>
+          </div>
+          
+
+
+          <div id="id14" style="height: 43px; left: 462px; position: absolute; top: 1503px; width: 104px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_8">
+            <div class="text-content graphic_textbox_layout_style_default_External_102_41" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style">Clear the list once in awhile</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 186px; width: 159px;  height: 186px; left: 424px; position: absolute; top: 1262px; width: 159px; z-index: 1; " class="tinyText style_SkipStroke_2 stroke_0">
+            <img src="Logging_files/Screen%20shot%202011-09-29%20at%202.55.52%20PM.png" alt="" style="border: none; height: 186px; width: 159px; " />
+          </div>
+          
+
+
+          <div style="height: 59px; width: 200px;  height: 57px; left: 232px; position: absolute; top: 1277px; width: 200px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 200px; ">
+              <img src="Logging_files/shapeimage_16.png" alt="" style="height: 59px; left: 0px; margin-top: -1px; position: absolute; top: 0px; width: 200px; " />
+            </div>
+          </div>
+          
+
+
+          <div style="height: 77px; width: 206px;  height: 75px; left: 231px; position: absolute; top: 1345px; width: 206px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 206px; ">
+              <img src="Logging_files/shapeimage_17.png" alt="" style="height: 77px; left: 0px; margin-top: -1px; position: absolute; top: 0px; width: 206px; " />
+            </div>
+          </div>
+          
+
+
+          <div style="height: 395px; width: 526px;  height: 395px; left: -2px; position: absolute; top: 2353px; width: 526px; z-index: 1; " class="tinyText style_SkipStroke_2 stroke_0">
+            <img src="Logging_files/Screen%20shot%202011-09-29%20at%203.08.36%20PM.png" alt="" style="border: none; height: 396px; width: 526px; " />
+          </div>
+          
+
+
+          <div id="id15" style="height: 76px; left: 396px; position: absolute; top: 2633px; width: 209px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_9">
+            <div class="text-content graphic_textbox_layout_style_default_External_207_74" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style">The operation of the e-mail dialog should be obvious. Note that you can add your own content to the edit window.</p>
+              </div>
+            </div>
+          </div>
+          <div style="height: 2901px; line-height: 2901px; " class="spacer"> </div>
+        </div>
+        <div style="height: 150px; margin-left: 0px; position: relative; width: 700px; z-index: 15; " id="footer_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+

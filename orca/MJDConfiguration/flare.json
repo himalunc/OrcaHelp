@@ -1,0 +1,172 @@
+{
+    "name": "MJD",
+    "imageType": "MJD",
+    "children": [
+                 {
+                 "name": "DAQ1",
+                 "imageType": "Mac",
+                 "children": [
+                              {
+                              "name": "VME",
+                              "imageType": "VME",
+                              "children": [
+                                           {
+                                           "name": "GRETINA Slot 1",
+                                           "imageType": "GRETINA",
+                                           "children": [
+                                                        {
+                                                        "name": "Preamp1",
+                                                        "imageType": "Preamp",
+
+                                                        "children": [
+                                                                     {"name": "P0010D","imageType":"detector"},
+                                                                     {"name": "P0020D","imageType":"detector"},
+                                                                     {"name": "P0030D","imageType":"detector"},
+                                                                     {"name": "P0040D","imageType":"detector"},
+                                                                     {"name": "P0050D","imageType":"detector"},
+                                                                     {"name": "P0060D","imageType":"detector"},
+                                                                     {"name": "P0070D","imageType":"detector"},
+                                                                     {"name": "P0080D","imageType":"detector"},
+                                                                     {"name": "P0090D","imageType":"detector"},
+                                                                     {"name": "P0100D","imageType":"detector"}
+                                                        ]
+                                                        
+                                                        },
+                                                        {
+                                                        "name": "Preamp2",
+                                                        "imageType": "Preamp",
+                                                        
+                                                        "children": [
+                                                                     {"name": "P0011D","imageType":"detector"},
+                                                                     {"name": "P0021D","imageType":"detector"},
+                                                                     {"name": "P0031D","imageType":"detector"},
+                                                                     {"name": "P0041D","imageType":"detector"},
+                                                                     {"name": "P0051D","imageType":"detector"},
+                                                                     {"name": "P0061D","imageType":"detector"},
+                                                                     {"name": "P0071D","imageType":"detector"},
+                                                                     {"name": "P0081D","imageType":"detector"},
+                                                                     {"name": "P0091D","imageType":"detector"},
+                                                                     {"name": "P0101D","imageType":"detector"}
+                                                                     ]
+                                                        
+                                                        },
+                                                        {
+                                                        "name": "Preamp3",
+                                                        "imageType": "Preamp",
+                                                        
+                                                        "children": [
+                                                                     {"name": "P0012D","imageType":"detector"},
+                                                                     {"name": "P0022D","imageType":"detector"},
+                                                                     {"name": "P0032D","imageType":"detector"},
+                                                                     {"name": "P0042D","imageType":"detector"},
+                                                                     {"name": "P0052D","imageType":"detector"},
+                                                                     {"name": "P0062D","imageType":"detector"},
+                                                                     {"name": "P0072D","imageType":"detector"},
+                                                                     {"name": "P0082D","imageType":"detector"},
+                                                                     {"name": "P0092D","imageType":"detector"},
+                                                                     {"name": "P0102D","imageType":"detector"}
+                                                                     ]
+                                                        
+                                                        },
+                                                        {"name": "Preamp4","imageType":"Preamp"},
+                                                        {"name": "Preamp5","imageType":"Preamp"},
+                                                        {"name": "Preamp6","imageType":"Preamp"},
+                                                        {"name": "Preamp7","imageType":"Preamp"}
+                                                        ]
+                                           }
+                                           ]
+                              },
+                              {
+                              "name": "MPod",
+                              "imageType": "MPod",
+
+                              "children": [
+                                           {"name": "iSeg1","imageType":"hvCard"},
+                                           {"name": "iSeg2","imageType":"hvCard"},
+                                           {"name": "iSeg3","imageType":"hvCard"},
+                                           {"name": "iSeg4","imageType":"hvCard"}
+                                           ]
+                              
+                              }
+
+                              ]
+                 },
+                 
+                 {
+                 "name": "DAQ2",
+                 "imageType": "Mac",
+
+                 "children": [
+                              {
+                              "name": "VME",
+                              "imageType": "VME",
+
+                              "children": [
+                                           {
+                                           "name": "GRETINA Slot 1",
+                                           "imageType": "GRETINA",
+
+                                           "children": [
+                                                        {
+                                                        "name": "Preamp1",
+                                                        "imageType": "Preamp",
+
+                                                        "children": [
+                                                                     {"name": "P0010D","imageType":"detector"},
+                                                                     {"name": "P0020D","imageType":"detector"},
+                                                                     {"name": "P0030D","imageType":"detector"},
+                                                                     {"name": "P0040D","imageType":"detector"}
+                                                                     ]
+                                                        
+                                                        },
+                                                        {"name": "Preamp2","imageType":"Preamp"},
+                                                        {"name": "Preamp3","imageType":"Preamp"},
+                                                        {"name": "Preamp4","imageType":"Preamp"},
+                                                        {"name": "Preamp5","imageType":"Preamp"},
+                                                        {"name": "Preamp6","imageType":"Preamp"},
+                                                        {"name": "Preamp7","imageType":"Preamp"}
+                                                        ]
+                                           },
+                                           {
+                                           "name": "GRETINA Slot 1",
+                                           "imageType": "GRETINA",
+
+                                           "children": [
+                                                        {
+                                                        "name": "Preamp1",
+                                                        "imageType": "Preamp",
+                                                        "children": [
+                                                                     {"name": "P0010D","imageType":"detector"},
+                                                                     {"name": "P0020D","imageType":"detector"},
+                                                                     {"name": "P0030D","imageType":"detector"},
+                                                                     {"name": "P0040D","imageType":"detector"}
+                                                                     ]
+                                                        
+                                                        },
+                                                        {"name": "Preamp2","imageType":"Preamp"},
+                                                        {"name": "Preamp3","imageType":"Preamp"},
+                                                        {"name": "Preamp4","imageType":"Preamp"},
+                                                        {"name": "Preamp5","imageType":"Preamp"},
+                                                        {"name": "Preamp6","imageType":"Preamp"},
+                                                        {"name": "Preamp7","imageType":"Preamp"}
+                                                        ]
+                                           }
+                                           ]
+                              },
+                              {
+                              "name": "MPod",
+                              "imageType": "MPod",
+
+                              "children": [
+                                           {"name": "iSeg1","imageType":"hvCard"},
+                                           {"name": "iSeg2","imageType":"hvCard"},
+                                           {"name": "iSeg3","imageType":"hvCard"},
+                                           {"name": "iSeg4","imageType":"hvCard"}
+                                           ]
+                              
+                              }
+                              
+                              ]
+                 }
+                 ]
+}

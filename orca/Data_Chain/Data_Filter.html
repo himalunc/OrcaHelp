@@ -1,0 +1,1030 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="Generator" content="iWeb 3.0.4" />
+    <meta name="iWeb-Build" content="local-build-20161121" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <meta name="viewport" content="width=700" />
+    <title>Data Filter Scripting</title>
+    <link rel="stylesheet" type="text/css" media="screen,print" href="Data_Filter_files/Data_Filter.css" />
+    <!--[if lt IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='Data_Filter_files/Data_FilterIE.css'/><![endif]-->
+    <!--[if gte IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='Media/IE8.css'/><![endif]-->
+    <script type="text/javascript" src="Scripts/iWebSite.js"></script>
+    <script type="text/javascript" src="Scripts/Widgets/SharedResources/WidgetCommon.js"></script>
+    <script type="text/javascript" src="Scripts/Widgets/Navbar/navbar.js"></script>
+    <script type="text/javascript" src="Scripts/iWebImage.js"></script>
+    <script type="text/javascript" src="Data_Filter_files/Data_Filter.js"></script>
+  </head>
+  <body style="background: rgb(255, 255, 255); margin: 0pt; " onload="onPageLoad();" onunload="onPageUnload();">
+    <div style="text-align: center; ">
+      <div style="margin-bottom: 0px; margin-left: auto; margin-right: auto; margin-top: 0px; overflow: hidden; position: relative; word-wrap: break-word;  background: transparent; text-align: left; width: 700px; " id="body_content">
+        <div style="margin-left: 0px; position: relative; width: 700px; z-index: 0; " id="nav_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+          <div class="com-apple-iweb-widget-navbar flowDefining" id="widget0" style="margin-left: 35px; margin-top: 0px; opacity: 1.00; position: relative; width: 630px; z-index: 1; ">
+    
+            <div id="widget0-navbar" class="navbar">
+
+      
+              <div id="widget0-bg" class="navbar-bg">
+
+        
+                <ul id="widget0-navbar-list" class="navbar-list">
+ <li></li> 
+</ul>
+                
+      
+</div>
+              
+    
+</div>
+          </div>
+          <script type="text/javascript"><!--//--><![CDATA[//><!--
+new NavBar('widget0', 'Scripts/Widgets/Navbar', 'Scripts/Widgets/SharedResources', '.', {"path-to-root": "", "navbar-css": ".navbar {\n\tfont-family: Arial, sans-serif;\n\tfont-size: 1em;\n\tcolor: #666;\n\tmargin: 9px 0px 6px 0px;\n\tline-height: 30px;\n}\n\n.navbar-bg {\n\ttext-align: center;\n}\n\n.navbar-bg ul {\n\tlist-style: none;\n\tmargin: 0px;\n\tpadding: 0px;\n}\n\n\nli {\n\tlist-style-type: none;\n\tdisplay: inline;\n\tpadding: 0px 10px 0px 10px;\n}\n\n\nli a {\n\ttext-decoration: none;\n\tcolor: #666;\n}\n\nli a:visited {\n\ttext-decoration: none;\n\tcolor: #666;\n}\n\nli a:hover\r{\r\n \tcolor: #463C3C;\n\ttext-decoration: none;\r}\n\n\nli.current-page a\r{\r\t color: #463C3C;\n\ttext-decoration: none;\n\tfont-weight: bold;\r\r}", "current-page-GUID": "B90DD5A6-D2C9-4F96-8DDA-A936909D9DAC", "isCollectionPage": "NO"});
+//--><!]]></script>
+          <div style="clear: both; height: 0px; line-height: 0px; " class="spacer"> </div>
+        </div>
+        <div style="height: 73px; margin-left: 0px; position: relative; width: 700px; z-index: 10; " id="header_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+          <div id="id1" style="height: 50px; left: 35px; position: absolute; top: 23px; width: 630px; z-index: 1; " class="style_SkipStroke shape-with-text">
+            <div class="text-content style_External_630_50" style="padding: 0px; ">
+              <div class="style">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="Header">Data Filter Scripting</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 1px; width: 630px;  height: 1px; left: 35px; position: absolute; top: 3px; width: 630px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 630px; ">
+              <img src="Data_Filter_files/shapeimage_1.jpg" alt="" style="height: 1px; left: 0px; position: absolute; top: 0px; width: 630px; " />
+            </div>
+          </div>
+        </div>
+        <div style="margin-left: 0px; position: relative; width: 700px; z-index: 5; " id="body_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+          <div style="height: 149px; width: 300px;  height: 149px; left: 13px; position: absolute; top: 258px; width: 300px; z-index: 1; " class="tinyText style_SkipStroke_1 stroke_0 shadow_0">
+            <img src="Data_Filter_files/Screen%20Shot%202016-11-21%20at%2010.40.38%20AM.jpg" alt="" style="border: none; height: 150px; width: 300px; " />
+          </div>
+          
+
+
+          <div style="height: 372px; width: 310px;  height: 372px; left: 384px; position: absolute; top: 1018px; width: 310px; z-index: 1; " class="tinyText style_SkipStroke_2 stroke_1 shadow_1">
+            <img src="Data_Filter_files/Picture%2013.png" alt="" style="border: none; height: 372px; width: 311px; " />
+          </div>
+          
+
+
+          <div style="height: 404px; width: 400px;  height: 404px; left: 3px; position: absolute; top: 992px; width: 400px; z-index: 1; " class="tinyText style_SkipStroke_2 stroke_1 shadow_2">
+            <img src="Data_Filter_files/2.png" alt="" style="border: none; height: 404px; width: 401px; " />
+          </div>
+          <div style="height: 1px; line-height: 1px; " class="tinyText"> </div>
+          <div style="margin-left: 0px; margin-top: 13px; position: relative; width: 630px; z-index: 1; " class="style_SkipStroke_3 shape-with-text flowDefining">
+            <div class="text-content style_External_630_175" style="padding: 0px; ">
+              <div class="style">
+                <p style="padding-top: 0pt; " class="paragraph_style">Overview<br /></p>
+                <div class="paragraph Body" style="padding-bottom: 0pt; "><div style="height: 70px; width: 98px;  clear: left; float: left; height: 70px; margin: 6px 6px 6px 0px; position: relative; width: 98px; " class="tinyText style_SkipStroke_2 inline-block stroke_1 shadow_3"><img src="Data_Filter_files/Filter.png" alt="" style="border: none; height: 71px; width: 98px; " /></div>The ORCA FilterScript is a small interpreted programming language that can be used to do simple data stream filtering and/or event building. Among its design goals were that it could be interpreted using a relatively simple lex/yacc based code, provide a C-like language that would be easy to learn, and would be able to process data records as quickly as possible. FilterScripts are created and edited using the Data Filter object. Scripts can not be run manually, they are run  automatically for each record that is passed thru the object. </div>
+              </div>
+              <div style="clear: both; height: 0px; line-height: 0px; " class="tinyText"> </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 67px; width: 21px;  height: 67px; left: 36px; position: absolute; top: 941px; width: 19px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 19px; ">
+              <img src="Data_Filter_files/shapeimage_2.png" alt="" style="height: 67px; left: 0px; margin-left: -1px; position: absolute; top: 0px; width: 21px; " />
+            </div>
+          </div>
+          
+
+
+          <div id="id2" style="height: 60px; left: 4px; position: absolute; top: 914px; width: 100px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_2">
+            <div class="text-content graphic_textbox_layout_style_default_External_98_58" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1">Check Syntax. Results posted to the status log.</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 184px; width: 391px;  height: 183px; left: 5px; position: absolute; top: 1045px; width: 390px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 390px; ">
+              <img src="Data_Filter_files/shapeimage_3.png" alt="" style="height: 184px; left: 0px; position: absolute; top: 0px; width: 391px; " />
+            </div>
+          </div>
+          
+
+
+          <div id="id3" style="height: 26px; left: 295px; position: absolute; top: 1113px; width: 82px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_3">
+            <div class="text-content graphic_textbox_layout_style_default_External_80_24" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1">Editing area</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 122px; width: 193px;  height: 121px; left: 20px; position: absolute; top: 1243px; width: 192px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 192px; ">
+              <img src="Data_Filter_files/shapeimage_4.png" alt="" style="height: 122px; left: 0px; position: absolute; top: 0px; width: 193px; " />
+            </div>
+          </div>
+          
+
+
+          <div style="height: 82px; width: 33px;  height: 82px; left: 63px; position: absolute; top: 1362px; width: 31px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 31px; ">
+              <img src="Data_Filter_files/shapeimage_5.png" alt="" style="height: 82px; left: 0px; margin-left: -1px; position: absolute; top: 0px; width: 33px; " />
+            </div>
+          </div>
+          
+
+
+          <div id="id4" style="height: 60px; left: 10px; position: absolute; top: 1420px; width: 121px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_4">
+            <div class="text-content graphic_textbox_layout_style_default_External_119_58" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1">The values of these arguments can be accessed script</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 30px; width: 35px;  height: 28px; left: 14px; position: absolute; top: 1007px; width: 33px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 33px; ">
+              <img src="Data_Filter_files/shapeimage_6.png" alt="" style="height: 30px; left: 0px; margin-left: -1px; margin-top: -1px; position: absolute; top: 0px; width: 35px; " />
+            </div>
+          </div>
+          
+
+
+          <div style="height: 70px; width: 7px;  height: 70px; left: 333px; position: absolute; top: 939px; width: 5px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 5px; ">
+              <img src="Data_Filter_files/shapeimage_7.png" alt="" style="height: 70px; left: 0px; margin-left: -1px; position: absolute; top: 0px; width: 7px; " />
+            </div>
+          </div>
+          
+
+
+          <div id="id5" style="height: 43px; left: 294px; position: absolute; top: 931px; width: 79px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_5">
+            <div class="text-content graphic_textbox_layout_style_default_External_77_41" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1">Open the Quick Guide</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 32px; width: 29px;  height: 30px; left: 324px; position: absolute; top: 1009px; width: 28px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 28px; ">
+              <img src="Data_Filter_files/shapeimage_8.png" alt="" style="height: 32px; left: 0px; margin-top: -1px; position: absolute; top: 0px; width: 29px; " />
+            </div>
+          </div>
+          
+
+
+          <div style="height: 72px; width: 50px;  height: 72px; left: 377px; position: absolute; top: 939px; width: 48px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 48px; ">
+              <img src="Data_Filter_files/shapeimage_9.png" alt="" style="height: 72px; left: 0px; margin-left: -1px; position: absolute; top: 0px; width: 50px; " />
+            </div>
+          </div>
+          
+
+
+          <div style="height: 31px; width: 25px;  height: 29px; left: 360px; position: absolute; top: 1010px; width: 24px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 24px; ">
+              <img src="Data_Filter_files/shapeimage_10.png" alt="" style="height: 31px; left: 0px; margin-top: -1px; position: absolute; top: 0px; width: 25px; " />
+            </div>
+          </div>
+          
+
+
+          <div style="height: 42px; width: 10px;  height: 42px; left: 163px; position: absolute; top: 971px; width: 8px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 8px; ">
+              <img src="Data_Filter_files/shapeimage_11.png" alt="" style="height: 42px; left: 0px; margin-left: -1px; position: absolute; top: 0px; width: 10px; " />
+            </div>
+          </div>
+          
+
+
+          <div id="id6" style="height: 26px; left: 119px; position: absolute; top: 949px; width: 148px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_6">
+            <div class="text-content graphic_textbox_layout_style_default_External_146_24" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1">File where script is saved</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 18px; width: 102px;  height: 17px; left: 117px; position: absolute; top: 1014px; width: 100px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 100px; ">
+              <img src="Data_Filter_files/shapeimage_12.png" alt="" style="height: 18px; left: 0px; margin-left: -1px; position: absolute; top: 0px; width: 102px; " />
+            </div>
+          </div>
+          
+
+
+          <div id="id7" style="height: 73px; left: 466px; position: absolute; top: 1516px; width: 189px; z-index: 1; " class="style_SkipStroke_5 shape-with-text stroke_7 shadow_4">
+            <div class="text-content graphic_textbox_layout_style_default_External_187_71" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-top: 0pt; " class="paragraph_style_2"><span style="line-height: 19px; " class="style_1">Helpful Hint.</span><br /></p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_1">You can copy/paste text from the quick guide. </p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 151px; width: 156px;  height: 150px; left: 220px; position: absolute; top: 1241px; width: 155px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 155px; ">
+              <img src="Data_Filter_files/shapeimage_13.png" alt="" style="height: 151px; left: 0px; position: absolute; top: 0px; width: 156px; " />
+            </div>
+          </div>
+          
+
+
+          <div style="height: 88px; width: 13px;  height: 88px; left: 306px; position: absolute; top: 1391px; width: 11px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 11px; ">
+              <img src="Data_Filter_files/shapeimage_14.png" alt="" style="height: 88px; left: 0px; margin-left: -1px; position: absolute; top: 0px; width: 13px; " />
+            </div>
+          </div>
+          
+
+
+          <div id="id8" style="height: 60px; left: 243px; position: absolute; top: 1429px; width: 121px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_8">
+            <div class="text-content graphic_textbox_layout_style_default_External_119_58" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1">Script output values set via the <span class="style_2">display</span> command</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div id="id10" style="height: 3773px; left: 1px; position: absolute; top: 1962px; width: 683px; z-index: 1; " class="style_SkipStroke_7 shape-with-text">
+            <div class="text-content graphic_textbox_layout_style_default_External_683_3773" style="padding: 0px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-top: 0pt; " class="Body"><span style="line-height: 34px; " class="style_3">Language Reference</span><br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span style="line-height: 25px; " class="style_4">Introduction</span><br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">With some limitations, ORCAScript is essentially a sub-set of the 'C' language. A couple of new keywords are introduced to facilitate interaction with the Data Filter run-time methods.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">For a quick introduction, here the simplest possible filter which just passes the unaltered data:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_5">//the optional start section is executed ONCE at the start of run</span><span style="line-height: 14px; " class="style_6"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_6">start</span><span style="line-height: 14px; " class="style_7"> <br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">{<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">}<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_5">//the filter section is executed for each data record</span><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_6">filter</span><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">{<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">    </span><span style="line-height: 14px; " class="style_8">shipRecord</span><span style="line-height: 14px; " class="style_7">(</span><span style="line-height: 14px; " class="style_9">CurrentRecordPtr</span><span style="line-height: 14px; " class="style_7">); </span><span style="line-height: 14px; " class="style_5">//This filter really does nothing--just it outputs whatever it gets</span><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">}<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_5">//the optional finish section is executed ONCE at the end of run</span><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_6">finish</span><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">{<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">}<br /></span></p>
+                <p class="paragraph_style_3"><br /></p>
+                <p class="paragraph_style_3"><br /></p>
+                <p class="Body">Note that there are three sections to a filter script:<br /></p>
+                <ol>
+                  <li style="line-height: 20px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_4"><span style="font-size: 15px; " class="Bullet">•</span> start { }<br /></p>
+                  </li>
+                  <li style="line-height: 20px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_4"><span style="font-size: 15px; " class="Bullet">•</span> filter { }<br /></p>
+                  </li>
+                  <li style="line-height: 20px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_4"><span style="font-size: 15px; " class="Bullet">•</span> finish { }<br /></p>
+                  </li>
+                </ol>
+                <p class="Body"><br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span class="style_2">Start Section. </span>The start section is executed once and only once at the start of a run. You can initialize variables and arrays there as needed. The section is optional.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span class="style_2">Filter Section</span>. All scripts must have a filter section. It is in this section where you put the code to implement the actual filter function.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span class="style_2">End Section</span>. An optional section where you can free arrays. It is run once at the end of a run. Note that you can not ship event records at this stage as the run is ended and all files has been closed.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span style="line-height: 25px; " class="style_4">Variables<br /></span></p>
+                <p class="Body"><br /></p>
+                <p class="Body">Variables in FilterScript are easy-- just use them. All variables are longs or pointers to arrays and initialized to zero by default. <br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span style="line-height: 25px; " class="style_4">Arrays</span><br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">Arrays must be defined using the keyword array and must be given with a max array size. The syntax is:<br /></p>
+                <p class="paragraph_style_5"><br /></p>
+                <p class="paragraph_style_5">array anArray[10];<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">Thereafter, the array can be accessed with same syntax as 'C'.  For example:<br /></p>
+                <p class="paragraph_style_5"><br /></p>
+                <p class="paragraph_style_5">array anArray[4];<br /></p>
+                <p class="paragraph_style_5">anArray[2] = 2;<br /></p>
+                <p class="paragraph_style_5">anArray[3] = 1;<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">Note that, just as in ‘C’ there is no bounds checking. If you step beyond the end of an array you could crash the script which will crash the entire ORCA application. There is one major limitation in the use of arrays -- some operators can not be used. In particular, you can not use any of the operators that assign a value back into the array, i.e. +=, -=, *=, ++, etc... And unfortunately, those constructs will parse correctly--you'll just get a run-time exception when they are executed.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">Arrays should be freed after use or there will be a memory leak.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span style="line-height: 25px; " class="style_4">Predefined Constants</span><br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">There are some predefined constants. The values should be obvious:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_5">true, false, TRUE, FALSE<br /></p>
+                <p class="paragraph_style_5">yes, no, YES, NO<br /></p>
+                <p class="paragraph_style_5">nil, NUL<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span style="line-height: 25px; " class="style_4">Loops</span><br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">All of the 'C' language loop constructs are allowed.<br /></p>
+                <p class="paragraph_style_5"><br /></p>
+                <p class="paragraph_style_5">do {<br /></p>
+                <p class="paragraph_style_5">    &lt;statements&gt;<br /></p>
+                <p class="paragraph_style_5">}while(&lt;condition&gt;);<br /></p>
+                <p class="paragraph_style_5"><br /></p>
+                <p class="paragraph_style_5">while(&lt;condition&gt;) {<br /></p>
+                <p class="paragraph_style_5">    &lt;statements&gt;<br /></p>
+                <p class="paragraph_style_5">};<br /></p>
+                <p class="paragraph_style_5"><br /></p>
+                <p class="paragraph_style_5">for(i=0;i&lt;10;i++){<br /></p>
+                <p class="paragraph_style_5">    &lt;statements&gt;<br /></p>
+                <p class="paragraph_style_5">}<br /></p>
+                <p class="paragraph_style_5"><br /></p>
+                <p class="Body">The <span class="style_2">break</span> and <span class="style_2">continue</span> statements work same as in 'C'.<br /></p>
+                <p class="Body">The <span class="style_2">exit</span> statement causes the script to exit completely and return 0;<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span style="line-height: 25px; " class="style_4">Flow Control and Branching<br /></span></p>
+                <p class="Body"><br /></p>
+                <p class="Body">All of the 'C' language flow control constructs are allowed.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_5">if(&lt;condition&gt;){<br /></p>
+                <p class="paragraph_style_5">    &lt;statements&gt;<br /></p>
+                <p class="paragraph_style_5">}<br /></p>
+                <p class="paragraph_style_5">else {<br /></p>
+                <p class="paragraph_style_5">    &lt;statements&gt;<br /></p>
+                <p class="paragraph_style_5">}<br /></p>
+                <p class="paragraph_style_5"><br /></p>
+                <p class="paragraph_style_5">switch(&lt;variable&gt;){<br /></p>
+                <p class="paragraph_style_5">case &lt;val&gt;:<br /></p>
+                <p class="paragraph_style_5">    &lt;statements&gt;<br /></p>
+                <p class="paragraph_style_5">break;<br /></p>
+                <p class="paragraph_style_5">...<br /></p>
+                <p class="paragraph_style_5">...<br /></p>
+                <p class="paragraph_style_5">default:<br /></p>
+                <p class="paragraph_style_5">&lt;statements&gt;<br /></p>
+                <p class="paragraph_style_5">break;<br /></p>
+                <p class="paragraph_style_5">}<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span style="line-height: 25px; " class="style_4">Printing and Displaying Values<br /></span></p>
+                <p class="Body"><br /></p>
+                <p class="Body">Printing . You can print one variable at a time. The syntax is:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span class="style_2">print [(] &lt;variable&gt; [)];</span><br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">Note that the bracketing parentheses are optional. An Example:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_5">    i=10;<br /></p>
+                <p class="paragraph_style_5">    print i;<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">Display. The FilterScript dialog has five display parameters that you can use to display values. The syntax:<br /></p>
+                <p class="Body"><span class="style_2"><br /></span></p>
+                <p class="Body"><span class="style_2">display(&lt;displayIndex&gt;, &lt;variable&gt;);</span><br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span style="line-height: 25px; " class="style_4">Interaction With Data Records<br /></span></p>
+                <p class="Body"><br /></p>
+                <p class="Body">Unlike the ORCAScript language, interaction with ORCA is limited to predefined variables and functions that are geared toward data record processing.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">The FilterScript run-time defines a number of special variables that are loaded when the script is first run:<br /></p>
+                <p class="Body"> <br /></p>
+                <ol>
+                  <li style="line-height: 20px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_4"><span style="font-size: 15px; " class="Bullet">•</span><span class="style_2">CurrentRecordPtr</span>   points to first word of the current record. It is used to access any word of a data record. For example, <span class="style_2">CurrentRecordPtr[2] </span>is the third word in the current record.<br /></p>
+                  </li>
+                  <li style="line-height: 20px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_4"><span style="font-size: 15px; " class="Bullet">•</span><span class="style_2">CurrentRecordLen</span> holds the length of the current record.<br /></p>
+                  </li>
+                  <li style="line-height: 20px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_4"><span style="font-size: 15px; " class="Bullet">•</span><span class="style_2">ElapsedTime</span> holds the time elapsed since start of run in millseconds. Note that this is actually the time since the script started running in the case of processing data from a replay object.<br /></p>
+                  </li>
+                  <li style="line-height: 20px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_4"><span style="font-size: 15px; " class="Bullet">•</span>DataID variables.  Variables that represent the available data identifiers has the general form <span class="style_2">ORxxxDecoderForxxx. </span>The symbol table includes ALL of the data ids that are in the run header. <span class="style_2">ORShaperDecoderForShaper, </span> for example, is the name of the data id for the Shaper card adc data id. You  can get a list of available data id names by clicking the “List Decoders” button in the Quick Guide or you can look at an example run header or examine the ORCA source code to discover the proper names.<br /></p>
+                  </li>
+                </ol>
+                <p class="Body"><br /></p>
+                <p class="Body"><span style="line-height: 25px; " class="style_4">Functions<br /></span></p>
+                <p class="Body">currentRecordIs(&lt;var&gt;)                 //returns YES if the current record is of type &lt;var&gt;<br /></p>
+                <p class="Body">                                                      //The &lt;var&gt; in this case would be a record id variable<br /></p>
+                <p class="Body">                                                      //i.e. <span class="style_2">ORShaperDecoderForShaper</span><span style="line-height: 25px; " class="style_4"><br /></span></p>
+                <p class="Body">id = extractRecordID(&lt;var&gt;);         //returns dataid of current record<br /></p>
+                <p class="Body">len = extractRecordLen(&lt;var&gt;);    //returns # longs in current record<br /></p>
+                <p class="Body">val = extractValue(&lt;var&gt;,&lt;mask&gt;,&lt;shift&gt;);    //returns (var &amp; mask) &gt;&gt; shift<br /></p>
+                <p class="Body">shipRecord(&lt;ptr&gt;);                        //ships record pointed to by &lt;ptr&gt; into filtered datastream<br /></p>
+                <p class="Body">push(&lt;var&gt;,&lt;ptr&gt;);                        //push record pointed to by &lt;ptr&gt; onto stack &lt;var&gt;<br /></p>
+                <p class="Body">ptr = pop(&lt;var&gt;);                           //pop the last record placed on stack &lt;var&gt;<br /></p>
+                <p class="Body">ptr = bottomPop(&lt;var&gt;);                //pop a record from the bottom off stack &lt;var&gt;<br /></p>
+                <p class="Body">stackCount(&lt;var&gt;);                       //returns the number of items in stack &lt;var&gt;<br /></p>
+                <p class="Body">dumpStack(&lt;var&gt;);                       //delete all records from stack &lt;var&gt;<br /></p>
+                <p class="Body">shipStack(&lt;var&gt;);                         //put the contents stack &lt;var&gt; into filtered data stream<br /></p>
+                <p class="Body">                                                     //NOTE: contents shipped in reverse order they<br /></p>
+                <p class="Body">                                                     //were pushed onto stack<br /></p>
+                <p class="Body">histo1D(&lt;var1&gt;,&lt;var2&gt;);              //load the value &lt;val2&gt; into 1D histogram &lt;var1&gt;<br /></p>
+                <p class="Body">histo2D(&lt;var1&gt;,&lt;x&gt;,&lt;y&gt;);            //load the values &lt;x&gt;,&lt;y&gt; into 2D histogram &lt;var1&gt;<br /></p>
+                <p class="Body">stripChart(&lt;var1&gt;,&lt;time&gt;,&lt;var2&gt;);//load &lt;var2&gt; into strip chart &lt;var1&gt; at &lt;time&gt;<br /></p>
+                <p class="Body">display(&lt;var1&gt;,&lt;var2&gt;);               //load value &lt;var2&gt; into display slot &lt;var1&gt;<br /></p>
+                <p class="Body">resetDisplays();                            //load value 0 into all display slots<br /></p>
+                <p class="Body">time();//returns number of seconds since 1/1/1970<br /></p>
+                <p class="Body"><br /></p>
+                <div class="paragraph Body"><div id="id9" style="height: 132px; position: relative; width: 392px; " class="style_SkipStroke_6 shape-with-text inline-block stroke_9"><div class="text-content graphic_textbox_layout_style_default_External_390_130" style="padding: 1px; "><div class="graphic_textbox_layout_style_default"><p style="padding-bottom: 0pt; padding-top: 0pt; " class="Body"><span class="style_10">Important:</span> Note the difference in the function arguments -- some are <span class="style_2">variables</span> and some are <span class="style_2">pointers</span>. A <span class="style_2">&lt;var&gt;</span> is a variable, i.e. <span class="style_2">CurrentRecordPtr[0], </span>and <span class="style_2">&lt;ptr&gt;</span> is a pointer, i.e. <span class="style_2">CurrentRecordPtr</span>. Unfortunately it isn’t possible for FilterScript to warn you if you use a pointer where a variable is supposed to be used.</p></div></div></div><span class="tinyText"> </span><span style="line-height: 25px; " class="style_4"><br /></span></div>
+                <p class="Body"><span style="line-height: 25px; " class="style_4"><br /></span></p>
+                <p class="Body"><span style="line-height: 25px; " class="style_4">Using Stacks</span><br /></p>
+                <p class="paragraph_style_5"><br /></p>
+                <p style="padding-bottom: 0pt; " class="Body">FilterScript provides FILO (first in, last out) stacks for holding sequences of data records for event building and record grouping. In a general filter, stacks are used like so:</p>
+              </div>
+              <div style="clear: both; height: 0px; line-height: 0px; " class="tinyText"> </div>
+            </div>
+          </div>
+          
+
+
+          <div id="id11" style="height: 1688px; left: 1px; position: absolute; top: 6524px; width: 683px; z-index: 1; " class="style_SkipStroke_7 shape-with-text">
+            <div class="text-content graphic_textbox_layout_style_default_External_683_1688" style="padding: 0px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-top: 0pt; " class="Body">The FilterScript run-time makes 256 stacks available for use. This limit is arbitrary, if you need more stacks please contact the ORCA development team.<br /></p>
+                <p class="paragraph_style_6"><br /></p>
+                <p class="Body">Here’s a example of using four stacks to reject data records based on a trigger time value:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_5">/* a filter to reject events that come too close together*/</span><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_5">//the start section is executed ONCE at the start of run</span><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_6">start</span><span style="line-height: 14px; " class="style_7"> <br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">{<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">    delta = $0;<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">    </span><span style="line-height: 14px; " class="style_5">//the trigger card has four channels, so we set up arrays for<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_5">    //each channel to hold some variables</span><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">    </span><span style="line-height: 14px; " class="style_8">array</span><span style="line-height: 14px; " class="style_7"> lastTime[4];<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">    </span><span style="line-height: 14px; " class="style_8">array</span><span style="line-height: 14px; " class="style_7"> t[4];<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">    </span><span style="line-height: 14px; " class="style_8">array</span><span style="line-height: 14px; " class="style_7"> discard[4];<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">    </span><span style="line-height: 14px; " class="style_8">resetDisplays</span><span style="line-height: 14px; " class="style_7">();<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">    j=0;<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">}<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_5">//the filter section is executed for each data record</span><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_6">filter</span><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">{<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">    </span><span style="line-height: 14px; " class="style_6">switch</span><span style="line-height: 14px; " class="style_7">(</span><span style="line-height: 14px; " class="style_8">extractRecordID</span><span style="line-height: 14px; " class="style_7">(</span><span style="line-height: 14px; " class="style_9">CurrentRecordPtr</span><span style="line-height: 14px; " class="style_7">[0])){<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">        </span><span style="line-height: 14px; " class="style_6">case</span><span style="line-height: 14px; " class="style_7"> 0:</span><span style="line-height: 14px; " class="style_8"> shipRecord</span><span style="line-height: 14px; " class="style_7">(</span><span style="line-height: 14px; " class="style_9">CurrentRecordPtr</span><span style="line-height: 14px; " class="style_7">);</span><span style="line-height: 14px; " class="style_6">  break</span><span style="line-height: 14px; " class="style_7">;</span><span style="line-height: 14px; " class="style_5"> //special case. See gotcha’s in the Filter help.<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">        </span><span style="line-height: 14px; " class="style_6">case</span><span style="line-height: 14px; " class="style_7"> OR4ChanTriggerDecoderFor100MHzClock:<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">            i = (</span><span style="line-height: 14px; " class="style_8">extractValue</span><span style="line-height: 14px; " class="style_7">(</span><span style="line-height: 14px; " class="style_11">CurrentRecordPtr</span><span style="line-height: 14px; " class="style_7">[1],0x00700000,24);  </span><span style="line-height: 14px; " class="style_5">//trigger chan, use as array and stack index</span><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">            t[i] = </span><span style="line-height: 14px; " class="style_9">CurrentRecordPtr</span><span style="line-height: 14px; " class="style_7">[2];          </span><span style="line-height: 14px; " class="style_5">//and the lower time</span><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_6">            if</span><span style="line-height: 14px; " class="style_7">(</span><span style="line-height: 14px; " class="style_8">stackCount</span><span style="line-height: 14px; " class="style_7">(i)&gt;0)</span><span style="line-height: 14px; " class="style_8">shipStack</span><span style="line-height: 14px; " class="style_7">(i);     </span><span style="line-height: 14px; " class="style_5">//ship the stack if anything is in it</span><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_6">            if</span><span style="line-height: 14px; " class="style_7">((lastTime[i] == 0) || ((t[i]-lastTime[i]) &gt; delta)){<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_5">                //OK we have a trigger after the min time... </span><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">                lastTime[i] = t[i];</span><span style="line-height: 14px; " class="style_5">//store the time</span><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_8">                push</span><span style="line-height: 14px; " class="style_7">(i,</span><span style="line-height: 14px; " class="style_9">CurrentRecordPtr</span><span style="line-height: 14px; " class="style_7">);</span><span style="line-height: 14px; " class="style_5">//keep record by pushing it onto a stack</span><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">                discard[i] = </span><span style="line-height: 14px; " class="style_9">NO</span><span style="line-height: 14px; " class="style_7">;         </span><span style="line-height: 14px; " class="style_5">//set a flag to ensure the next shapers kept</span><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">            }<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_6">            else</span><span style="line-height: 14px; " class="style_7"> discard[i] = </span><span style="line-height: 14px; " class="style_9">YES</span><span style="line-height: 14px; " class="style_7">;   </span><span style="line-height: 14px; " class="style_5">//the min time has not elapses, so discard this event</span><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_6">        break</span><span style="line-height: 14px; " class="style_7">;<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_6">        case</span><span style="line-height: 14px; " class="style_7"> ORShaperDecoderForShaper:<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_6">             if</span><span style="line-height: 14px; " class="style_7">(discard[i]==</span><span style="line-height: 14px; " class="style_9">NO</span><span style="line-height: 14px; " class="style_7">) </span><span style="line-height: 14px; " class="style_8">push</span><span style="line-height: 14px; " class="style_7">(i,</span><span style="line-height: 14px; " class="style_9">CurrentRecordPtr</span><span style="line-height: 14px; " class="style_7">);  </span><span style="line-height: 14px; " class="style_5">//push onto a stack</span><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_6">        break</span><span style="line-height: 14px; " class="style_7">;<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_5"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_5">        //just for fun, we’ll display a flag for the start of run, end of run, and<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_5">        //we’ll count and display the number of heartbeat records.</span><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_6">        case</span><span style="line-height: 14px; " class="style_7"> ORRunDecoderForRun:<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_6">            if</span><span style="line-height: 14px; " class="style_7">((</span><span style="line-height: 14px; " class="style_8">extractValue</span><span style="line-height: 14px; " class="style_7">(</span><span style="line-height: 14px; " class="style_11">CurrentRecordPtr</span><span style="line-height: 14px; " class="style_7">[1],0x8,3))</span><span style="line-height: 14px; " class="style_8">   display</span><span style="line-height: 14px; " class="style_7">(2,j++); </span><span style="line-height: 14px; " class="style_5">//heart beat<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">            </span><span style="line-height: 14px; " class="style_6">else </span><span style="line-height: 14px; " class="style_7">{<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_6">                if</span><span style="line-height: 14px; " class="style_7">(</span><span style="line-height: 14px; " class="style_8">extractValue</span><span style="line-height: 14px; " class="style_7">(</span><span style="line-height: 14px; " class="style_11">CurrentRecordPtr</span><span style="line-height: 14px; " class="style_7">[1],0x1,0)) </span><span style="line-height: 14px; " class="style_8">display</span><span style="line-height: 14px; " class="style_7">(0,1); </span><span style="line-height: 14px; " class="style_5">//start of run</span><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_6">                else</span><span style="line-height: 14px; " class="style_7">                                       </span><span style="line-height: 14px; " class="style_8">display</span><span style="line-height: 14px; " class="style_7">(1,1); </span><span style="line-height: 14px; " class="style_5">//end of run</span><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">            }<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_6">        break</span><span style="line-height: 14px; " class="style_7">;<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_5">        //all other records are shipped</span><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_6">        default</span><span style="line-height: 14px; " class="style_7">:</span><span style="line-height: 14px; " class="style_8">  shipRecord</span><span style="line-height: 14px; " class="style_7">(</span><span style="line-height: 14px; " class="style_9">CurrentRecordPtr</span><span style="line-height: 14px; " class="style_7">);</span><span style="line-height: 14px; " class="style_6">  break</span><span style="line-height: 14px; " class="style_7">;<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">    }<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">}<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_5">//the finish section is executed ONCE at the end of run</span><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_6">finish</span><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">{<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">    free(lastTime);<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">    free(discard);<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">    free(t);<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">}<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="Body">Here’s another example the filters out all records except the run control records and the end of run 1D histograms:<br /></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_12">filter</span><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">{<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"></span><span style="line-height: 14px; " class="style_12">if</span><span style="line-height: 14px; " class="style_7">(</span><span style="line-height: 14px; " class="style_13">currentRecordIs</span><span style="line-height: 14px; " class="style_7">(ORRunDecoderForRun) || </span><span style="line-height: 14px; " class="style_13">currentRecordIs</span><span style="line-height: 14px; " class="style_7">(OR1DHistoDecoder)) {<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"></span><span style="line-height: 14px; " class="style_13">shipRecord</span><span style="line-height: 14px; " class="style_7">(</span><span style="line-height: 14px; " class="style_14">CurrentRecordPtr</span><span style="line-height: 14px; " class="style_7">);<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">}<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">}<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="Body">Note that the <span class="style_2">start</span> and <span class="style_2">finish</span> sections were not needed in this script.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">Here’s an example from Mike Marino to limit his Gretina card data rate:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_7"><span style="line-height: 14px; " class="style_15">filter<br /></span></p>
+                <p class="paragraph_style_7"><span style="line-height: 14px; " class="style_7">{<br /></span></p>
+                <p class="paragraph_style_7"><span style="line-height: 14px; " class="style_7"></span><span style="line-height: 14px; " class="style_16">/*Script to throw away records from pulse reset events.  <br /></span></p>
+                <p class="paragraph_style_7"><span style="line-height: 14px; " class="style_16">        It tests to make sure that the pulse at the beginning<br /></span></p>
+                <p class="paragraph_style_7"><span style="line-height: 14px; " class="style_16">  and end is below a certain value.  The values in the <br /></span></p>
+                <p class="paragraph_style_7"><span style="line-height: 14px; " class="style_16">        pulse are actually signed shorts, which is why we make<br /></span></p>
+                <p class="paragraph_style_7"><span style="line-height: 14px; " class="style_16">  the check that the value is above 8191 (essentially <br /></span></p>
+                <p class="paragraph_style_7"><span style="line-height: 14px; " class="style_16">        below zero) or below the limit.  <br /></span></p>
+                <p class="paragraph_style_7"><span style="line-height: 14px; " class="style_16">        This check is quite effective for removing pulse reset <br /></span></p>
+                <p class="paragraph_style_7"><span style="line-height: 14px; " class="style_16">        events since they trigger exactly the same every time<br /></span></p>
+                <p class="paragraph_style_7"><span style="line-height: 14px; " class="style_16">  and the threshold check is well above where the baseline <br /></span></p>
+                <p class="paragraph_style_7"><span style="line-height: 14px; " class="style_16">        normally is (below 0 for low-energy channel).  <br /></span></p>
+                <p class="paragraph_style_7"><span style="line-height: 14px; " class="style_16">*/<br /></span></p>
+                <p class="paragraph_style_7"><span style="line-height: 14px; " class="style_7">waveformUpperLimit = 1800;<br /></span></p>
+                <p class="paragraph_style_7"><span style="line-height: 14px; " class="style_7">channelToAnalyze = 0;<br /></span></p>
+                <p class="paragraph_style_7"><span style="line-height: 14px; " class="style_7"></span><span style="line-height: 14px; " class="style_15">if</span><span style="line-height: 14px; " class="style_7">(</span><span style="line-height: 14px; " class="style_13">currentRecordIs</span><span style="line-height: 14px; " class="style_7">(ORGretina4WaveformDecoder) &amp;&amp; </span><span style="line-height: 14px; " class="style_11">CurrentRecordLen</span><span style="line-height: 14px; " class="style_7"> &gt; 9) {<br /></span></p>
+                <p class="paragraph_style_7"><span style="line-height: 14px; " class="style_7"></span><span style="line-height: 14px; " class="style_16">// Right now we are looking at *all* channels with waveforms:<br /></span></p>
+                <p class="paragraph_style_7"><span style="line-height: 14px; " class="style_7"></span><span style="line-height: 14px; " class="style_15">if</span><span style="line-height: 14px; " class="style_7">(((</span><span style="line-height: 14px; " class="style_11">CurrentRecordPtr</span><span style="line-height: 14px; " class="style_7">[9] &amp; 0xFFFF) &lt; waveformUpperLimit) || <br /></span></p>
+                <p class="paragraph_style_7"><span style="line-height: 14px; " class="style_7">               ((</span><span style="line-height: 14px; " class="style_11">CurrentRecordPtr</span><span style="line-height: 14px; " class="style_7">[9] &amp; 0xFFFF) &gt; 8191)){<br /></span></p>
+                <p class="paragraph_style_7"><span style="line-height: 14px; " class="style_7">    </span><span style="line-height: 14px; " class="style_16">// OK, the start of the waveform is below the limit<br /></span></p>
+                <p class="paragraph_style_7"><span style="line-height: 14px; " class="style_7"></span><span style="line-height: 14px; " class="style_15">if</span><span style="line-height: 14px; " class="style_7">(((</span><span style="line-height: 14px; " class="style_11">CurrentRecordPtr</span><span style="line-height: 14px; " class="style_7">[</span><span style="line-height: 14px; " class="style_11">CurrentRecordLen</span><span style="line-height: 14px; " class="style_7">-1] &amp; 0xFFFF) &lt; waveformUpperLimit) || <br /></span></p>
+                <p class="paragraph_style_7"><span style="line-height: 14px; " class="style_7">                     ((</span><span style="line-height: 14px; " class="style_11">CurrentRecordPtr</span><span style="line-height: 14px; " class="style_7">[</span><span style="line-height: 14px; " class="style_11">CurrentRecordLen</span><span style="line-height: 14px; " class="style_7">-1] &amp; 0xFFFF) &gt; 8191)) {<br /></span></p>
+                <p class="paragraph_style_7"><span style="line-height: 14px; " class="style_7"></span><span style="line-height: 14px; " class="style_16">// OK, the end of the waveform is below the limit<br /></span></p>
+                <p class="paragraph_style_7"><span style="line-height: 14px; " class="style_7"></span><span style="line-height: 14px; " class="style_13">shipRecord</span><span style="line-height: 14px; " class="style_7">(</span><span style="line-height: 14px; " class="style_11">CurrentRecordPtr</span><span style="line-height: 14px; " class="style_7">);</span><span style="line-height: 14px; " class="style_11"><br /></span></p>
+                <p class="paragraph_style_7"><span style="line-height: 14px; " class="style_7">}<br /></span></p>
+                <p class="paragraph_style_7"><span style="line-height: 14px; " class="style_7">}</span><span style="line-height: 14px; " class="style_16"><br /></span></p>
+                <p class="paragraph_style_7"><span style="line-height: 14px; " class="style_7">} <br /></span></p>
+                <p class="paragraph_style_7"><span style="line-height: 14px; " class="style_15">      else</span><span style="line-height: 14px; " class="style_7"> </span><span style="line-height: 14px; " class="style_13">shipRecord</span><span style="line-height: 14px; " class="style_7">(</span><span style="line-height: 14px; " class="style_11">CurrentRecordPtr</span><span style="line-height: 14px; " class="style_7">);<br /></span></p>
+                <p class="paragraph_style_7"><span style="line-height: 14px; " class="style_7">}<br /></span></p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 279px; width: 522px;  height: 279px; left: 19px; position: absolute; top: 6206px; width: 522px; z-index: 1; " class="tinyText style_SkipStroke_8 stroke_1">
+            <img src="Data_Filter_files/Picture%202.jpg" alt="" style="border: none; height: 280px; width: 522px; " />
+          </div>
+          
+
+
+          <div id="id12" style="height: 26px; left: 13px; position: absolute; top: 6209px; width: 134px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_10">
+            <div class="text-content graphic_textbox_layout_style_default_External_132_24" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1">Incoming data records</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div id="id13" style="height: 26px; left: 401px; position: absolute; top: 6178px; width: 146px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_11">
+            <div class="text-content graphic_textbox_layout_style_default_External_144_24" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1">unaltered data pass-thru</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div id="id14" style="height: 26px; left: 401px; position: absolute; top: 6285px; width: 146px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_12">
+            <div class="text-content graphic_textbox_layout_style_default_External_144_24" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1">filtered data data stream</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div id="id15" style="height: 26px; left: 325px; position: absolute; top: 6446px; width: 125px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_13">
+            <div class="text-content graphic_textbox_layout_style_default_External_123_24" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1">rejected data records</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 2px; width: 88px;  height: 1px; left: 82px; position: absolute; top: 6324px; width: 88px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 88px; ">
+              <img src="Data_Filter_files/shapeimage_15.jpg" alt="" style="height: 2px; left: 0px; margin-top: -1px; position: absolute; top: 0px; width: 88px; " />
+            </div>
+          </div>
+          
+
+
+          <div id="id16" style="height: 26px; left: 32px; position: absolute; top: 6312px; width: 117px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_14">
+            <div class="text-content graphic_textbox_layout_style_default_External_115_24" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1">Data holding stacks</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 102px; width: 197px;  height: 100px; left: 171px; position: absolute; top: 6275px; width: 195px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 195px; ">
+              <img src="Data_Filter_files/shapeimage_16.png" alt="" style="height: 102px; left: 0px; margin-left: -1px; margin-top: -1px; position: absolute; top: 0px; width: 197px; " />
+            </div>
+          </div>
+          
+
+
+          <div id="id17" style="height: 43px; left: 401px; position: absolute; top: 6364px; width: 162px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_15">
+            <div class="text-content graphic_textbox_layout_style_default_External_160_41" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1">Note that data is shipped from stacks in original order</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div id="id18" style="height: 432px; left: 1px; position: absolute; top: 466px; width: 683px; z-index: 1; " class="style_SkipStroke_7 shape-with-text">
+            <div class="text-content graphic_textbox_layout_style_default_External_683_432" style="padding: 0px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-top: 0pt; " class="paragraph_style">Characteristics<br /></p>
+                <p class="Body">As an C-like language, FilterScript has the following characteristics:<br /></p>
+                <ol>
+                  <li style="line-height: 20px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_4"><span style="font-size: 15px; " class="Bullet">•</span> The syntax is, as much as possible, the same as C<br /></p>
+                  </li>
+                  <li style="line-height: 20px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_4"><span style="font-size: 15px; " class="Bullet">•</span> A small set (around 15) of reserved keywords<br /></p>
+                  </li>
+                  <li style="line-height: 20px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_4"><span style="font-size: 15px; " class="Bullet">•</span> No functions<br /></p>
+                  </li>
+                </ol>
+                <p class="Body"><br /></p>
+                <p class="Body"> FilterScript also has the following specific properties:<br /></p>
+                <ol>
+                  <li style="line-height: 20px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_4"><span style="font-size: 15px; " class="Bullet">•</span> All variables are longs or arrays of longs.<br /></p>
+                  </li>
+                  <li style="line-height: 20px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_4"><span style="font-size: 15px; " class="Bullet">•</span> Variables are global in scope within each function and are persistent (even across runs)<br /></p>
+                  </li>
+                  <li style="line-height: 20px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_4"><span style="font-size: 15px; " class="Bullet">•</span> Arrays are allowed.<br /></p>
+                  </li>
+                </ol>
+                <p class="Body"><span style="line-height: 25px; " class="style_4"><br /></span></p>
+                <p class="Body"><span style="line-height: 25px; " class="style_4">Limitations:</span><br /></p>
+                <ol>
+                  <li style="line-height: 20px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_4"><span style="font-size: 15px; " class="Bullet">•</span>No floats, structures, enums, or typedefs<br /></p>
+                  </li>
+                  <li style="line-height: 20px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_4"><span style="font-size: 15px; " class="Bullet">•</span>In some cases, misspellings of certain keywords (i.e. break) will not be caught by the parser<br /></p>
+                  </li>
+                </ol>
+                <p class="Body"><br /></p>
+                <p class="Body"><span style="line-height: 25px; " class="style_4">Data Filter Object</span><br /></p>
+                <div class="paragraph Body"><div style="height: 70px; width: 98px;  clear: left; float: left; height: 70px; margin: 6px 6px 6px 0px; position: relative; width: 98px; " class="tinyText style_SkipStroke_2 inline-block stroke_1 shadow_5"><img src="Data_Filter_files/Filter_1.png" alt="" style="border: none; height: 71px; width: 99px; " /></div><br /></div>
+                <p style="padding-bottom: 0pt; " class="Body">The Data Filter object is a run-time environment for creating filters tasks written in FilterScript. Double-clicking on the icon will bring up the script IDE dialog:</p>
+              </div>
+              <div style="clear: both; height: 0px; line-height: 0px; " class="tinyText"> </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 49px; width: 7px;  height: 49px; left: 232px; position: absolute; top: 267px; width: 1px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 1px; ">
+              <img src="Data_Filter_files/shapeimage_17.png" alt="" style="height: 49px; left: 0px; margin-left: -3px; position: absolute; top: 0px; width: 7px; " />
+            </div>
+          </div>
+          
+
+
+          <div id="id19" style="height: 43px; left: 149px; position: absolute; top: 226px; width: 145px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_16">
+            <div class="text-content graphic_textbox_layout_style_default_External_143_41" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1">UnAltered, unfiltered data stream pass-thru</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 54px; width: 26px;  height: 53px; left: 201px; position: absolute; top: 373px; width: 24px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 24px; ">
+              <img src="Data_Filter_files/shapeimage_18.png" alt="" style="height: 54px; left: 0px; margin-left: -1px; margin-top: -1px; position: absolute; top: 0px; width: 26px; " />
+            </div>
+          </div>
+          
+
+
+          <div id="id20" style="height: 43px; left: 208px; position: absolute; top: 412px; width: 87px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_17">
+            <div class="text-content graphic_textbox_layout_style_default_External_85_41" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1">Filtered data stream output</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div id="id21" style="height: 60px; left: 332px; position: absolute; top: 273px; width: 153px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_18">
+            <div class="text-content graphic_textbox_layout_style_default_External_151_58" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-top: 0pt; " class="paragraph_style_1">Note that the filter can <span class="style_10">not</span><br /></p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_1">alter the pass-thru data stream!</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 300px; width: 218px;  height: 300px; left: 153px; position: absolute; top: 5762px; width: 218px; z-index: 1; " class="tinyText style_SkipStroke_8 stroke_1">
+            <img src="Data_Filter_files/Picture%204.jpg" alt="" style="border: none; height: 300px; width: 218px; " />
+          </div>
+          
+
+
+          <div id="id22" style="height: 26px; left: 13px; position: absolute; top: 5791px; width: 152px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_19">
+            <div class="text-content graphic_textbox_layout_style_default_External_150_24" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1">push(0,CurrentRecordPtr);</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div id="id23" style="height: 27px; left: 293px; position: absolute; top: 5791px; width: 79px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_20">
+            <div class="text-content graphic_textbox_layout_style_default_External_77_25" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1">ptr = pop(0);</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div id="id24" style="height: 26px; left: 281px; position: absolute; top: 5987px; width: 83px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_21">
+            <div class="text-content graphic_textbox_layout_style_default_External_81_24" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1">shipStack(0);</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div id="id25" style="height: 26px; left: 293px; position: absolute; top: 5859px; width: 113px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_22">
+            <div class="text-content graphic_textbox_layout_style_default_External_111_24" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1">n =  stackCount(0);</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 10px; width: 48px;  height: 1px; left: 128px; position: absolute; top: 5871px; width: 48px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 48px; ">
+              <img src="Data_Filter_files/shapeimage_19.png" alt="" style="height: 10px; left: 0px; margin-top: -5px; position: absolute; top: 0px; width: 48px; " />
+            </div>
+          </div>
+          
+
+
+          <div id="id26" style="height: 26px; left: 102px; position: absolute; top: 5859px; width: 53px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_23">
+            <div class="text-content graphic_textbox_layout_style_default_External_51_24" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1">Stack 0</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div id="id27" style="height: 354px; left: 424px; position: absolute; top: 5764px; width: 272px; z-index: 1; " class="style_SkipStroke_7 shape-with-text">
+            <div class="text-content graphic_textbox_layout_style_default_External_272_354" style="padding: 0px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-top: 0pt; " class="Body">The <span class="style_2">push</span> op puts an entire data record onto a stack. The stacks are push-down stacks. <span class="style_2">Pop </span>takes an entire record off the top of the stack and returns an array pointer to the record.<br /></p>
+                <p class="Body">Note that the pointer is valid only during this execution cycle, the record will be released and so you must push it onto a stack or ship it, otherwise it will be lost.<br /></p>
+                <p class="Body"><br /></p>
+                <p style="padding-bottom: 0pt; " class="Body">The <span class="style_2">shipStack</span> op puts the entire contents of the stack out into the filtered data stream. The order will be the original order of the data -- bottom of the stack ships first, top of the stack ships last.</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div id="id28" style="height: 100px; left: 1px; position: absolute; top: 6089px; width: 377px; z-index: 1; " class="style_SkipStroke_7 shape-with-text">
+            <div class="text-content graphic_textbox_layout_style_default_External_377_100" style="padding: 0px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="Body">The clever use of stacks makes it possible to do simple event building based on timing or other available information in the data stream. The filter logic can use as many stacks as needed:</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 67px; width: 40px;  height: 67px; left: 443px; position: absolute; top: 956px; width: 38px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 38px; ">
+              <img src="Data_Filter_files/shapeimage_20.png" alt="" style="height: 67px; left: 0px; margin-left: -1px; position: absolute; top: 0px; width: 40px; " />
+            </div>
+          </div>
+          
+
+
+          <div style="height: 91px; width: 110px;  height: 89px; left: 489px; position: absolute; top: 933px; width: 110px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 110px; ">
+              <img src="Data_Filter_files/shapeimage_21.png" alt="" style="height: 91px; left: 0px; margin-top: -1px; position: absolute; top: 0px; width: 110px; " />
+            </div>
+          </div>
+          
+
+
+          <div style="height: 125px; width: 125px;  height: 125px; left: 519px; position: absolute; top: 890px; width: 125px; z-index: 1; " class="tinyText style_SkipStroke_2 stroke_1 shadow_6">
+            <img src="Data_Filter_files/OrcaFilterScript.png" alt="" style="border: none; height: 125px; width: 125px; " />
+          </div>
+          
+
+
+          <div id="id29" style="height: 43px; left: 440px; position: absolute; top: 1000px; width: 101px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_24">
+            <div class="text-content graphic_textbox_layout_style_default_External_99_41" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1">FilterScript files have this icon</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div id="id30" style="height: 43px; left: 394px; position: absolute; top: 931px; width: 79px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_25">
+            <div class="text-content graphic_textbox_layout_style_default_External_77_41" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1">Open Save/Load Dialog</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 22px; width: 43px;  height: 21px; left: 171px; position: absolute; top: 1367px; width: 41px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 41px; ">
+              <img src="Data_Filter_files/shapeimage_22.png" alt="" style="height: 22px; left: 0px; margin-left: -1px; position: absolute; top: 0px; width: 43px; " />
+            </div>
+          </div>
+          
+
+
+          <div style="height: 32px; width: 7px;  height: 32px; left: 187px; position: absolute; top: 1387px; width: 5px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 5px; ">
+              <img src="Data_Filter_files/shapeimage_23.png" alt="" style="height: 32px; left: 0px; margin-left: -1px; position: absolute; top: 0px; width: 7px; " />
+            </div>
+          </div>
+          
+
+
+          <div id="id31" style="height: 43px; left: 139px; position: absolute; top: 1420px; width: 84px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_26">
+            <div class="text-content graphic_textbox_layout_style_default_External_82_41" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1">Add/Remove Input Values</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 446px; width: 422px;  height: 446px; left: 11px; position: absolute; top: 1508px; width: 422px; z-index: 1; " class="tinyText style_SkipStroke_2 stroke_1 shadow_7">
+            <img src="Data_Filter_files/1.png" alt="" style="border: none; height: 446px; width: 423px; " />
+          </div>
+          
+
+
+          <div id="id32" style="height: 78px; left: 343px; position: absolute; top: 1625px; width: 182px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_27">
+            <div class="text-content graphic_textbox_layout_style_default_External_180_76" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1">You can enable the collection of timing information to determine if your script will run fast enough for your experiment.</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 22px; width: 63px;  height: 21px; left: 608px; position: absolute; top: 1342px; width: 61px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 61px; ">
+              <img src="Data_Filter_files/shapeimage_24.png" alt="" style="height: 22px; left: 0px; margin-left: -1px; position: absolute; top: 0px; width: 63px; " />
+            </div>
+          </div>
+          
+
+
+          <div style="height: 42px; width: 42px;  height: 40px; left: 587px; position: absolute; top: 1362px; width: 42px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 42px; ">
+              <img src="Data_Filter_files/shapeimage_25.png" alt="" style="height: 42px; left: 0px; margin-top: -1px; position: absolute; top: 0px; width: 42px; " />
+            </div>
+          </div>
+          
+
+
+          <div id="id33" style="height: 43px; left: 468px; position: absolute; top: 1394px; width: 152px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_28">
+            <div class="text-content graphic_textbox_layout_style_default_External_150_41" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1">You can list the decoder id names to the status log</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div id="id34" style="height: 96px; left: 426px; position: absolute; top: 5502px; width: 244px; z-index: 1; " class="style_SkipStroke_5 shape-with-text stroke_29 shadow_8">
+            <div class="text-content graphic_textbox_layout_style_default_External_242_94" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-top: 0pt; " class="paragraph_style_2"><span style="line-height: 19px; " class="style_1">Helpful Hint.</span><br /></p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_1">To get a list of an object’s record id variable names, select it in the configuration window and do a ctrl-I (Get Info). The record id names will be listed in the status log</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div id="id35" style="height: 931px; left: -3px; position: absolute; top: 8232px; width: 692px; z-index: 1; " class="style_SkipStroke_7 shape-with-text">
+            <div class="text-content graphic_textbox_layout_style_default_External_692_931" style="padding: 0px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-top: 0pt; " class="Body"><span style="line-height: 25px; " class="style_4">Gotcha’s<br /></span></p>
+                <p class="Body"><span style="line-height: 25px; " class="style_4"><br /></span></p>
+                <p class="Body">One thing that is very tricky that decoders exist only for objects in the configuration. This means that if you have a script that is working and then try to use it in another configuration that is missing some of the objects that were in the original configuration, the symbol table will contain zeros for those decoder id names. This is unfortunate because the header is a special case that has a decoder id of zero. To work around this you must at times check for for it explicitly. For example:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"></span><span style="line-height: 14px; " class="style_12">switch</span><span style="line-height: 14px; " class="style_7">(</span><span style="line-height: 14px; " class="style_13">extractRecordID</span><span style="line-height: 14px; " class="style_7">(</span><span style="line-height: 14px; " class="style_14">CurrentRecordPtr</span><span style="line-height: 14px; " class="style_7">[0])){<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"></span><span style="line-height: 14px; " class="style_12">case</span><span style="line-height: 14px; " class="style_7"> ORIpeV4FLTDecoderForHistogram:<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"></span><span style="line-height: 14px; " class="style_16">//get the card, channel</span><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">card    = </span><span style="line-height: 14px; " class="style_13">extractValue</span><span style="line-height: 14px; " class="style_7">(</span><span style="line-height: 14px; " class="style_14">CurrentRecordPtr</span><span style="line-height: 14px; " class="style_7">[1],0xf0000,16);<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">channel = </span><span style="line-height: 14px; " class="style_13">extractValue</span><span style="line-height: 14px; " class="style_7">(</span><span style="line-height: 14px; " class="style_14">CurrentRecordPtr</span><span style="line-height: 14px; " class="style_7">[1],0x0f000,12);<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">stackid = (card*8)+channel;<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"></span><span style="line-height: 14px; " class="style_13">dumpStack</span><span style="line-height: 14px; " class="style_7">(stackid);</span><span style="line-height: 14px; " class="style_16">//throw away the old one</span><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"></span><span style="line-height: 14px; " class="style_13">push</span><span style="line-height: 14px; " class="style_7">(stackid, </span><span style="line-height: 14px; " class="style_14">CurrentRecordPtr</span><span style="line-height: 14px; " class="style_7">);</span><span style="line-height: 14px; " class="style_16">//push in the new one</span><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"></span><span style="line-height: 14px; " class="style_12">if</span><span style="line-height: 14px; " class="style_7">(stackid &gt; largestStackid) largestStackid=stackid;<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"></span><span style="line-height: 14px; " class="style_12">break</span><span style="line-height: 14px; " class="style_7">;<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"></span><span style="line-height: 14px; " class="style_12">default</span><span style="line-height: 14px; " class="style_7">: <br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"></span><span style="line-height: 14px; " class="style_13">shipRecord</span><span style="line-height: 14px; " class="style_7">(</span><span style="line-height: 14px; " class="style_14">CurrentRecordPtr</span><span style="line-height: 14px; " class="style_7">);<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"></span><span style="line-height: 14px; " class="style_12">break</span><span style="line-height: 14px; " class="style_7">;<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">    }<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="Body">In this case, if the configuration does not have an IpeV4Flt object the case for <span style="line-height: 17px; " class="style_7">ORIpeV4FLTDecoderForHistogram </span>would pick up the header by mistake and would proceed it as if were a histogram record. The execution would NOT fall thru to the default case. To fix this, add a case for zero as the first case in the switch statement, like so:<span style="line-height: 17px; " class="style_7"><br /></span></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"></span><span style="line-height: 14px; " class="style_12">switch</span><span style="line-height: 14px; " class="style_7">(</span><span style="line-height: 14px; " class="style_13">extractRecordID</span><span style="line-height: 14px; " class="style_7">(</span><span style="line-height: 14px; " class="style_14">CurrentRecordPtr</span><span style="line-height: 14px; " class="style_7">[0])){<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"></span><span style="line-height: 14px; " class="style_12">case</span><span style="line-height: 14px; " class="style_7"> 0:</span><span style="line-height: 14px; " class="style_16"> //special case to catch the header record.</span><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"></span><span style="line-height: 14px; " class="style_13">shipRecord</span><span style="line-height: 14px; " class="style_7">(</span><span style="line-height: 14px; " class="style_14">CurrentRecordPtr</span><span style="line-height: 14px; " class="style_7">);<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"></span><span style="line-height: 14px; " class="style_12">break</span><span style="line-height: 14px; " class="style_7">;<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"></span><span style="line-height: 14px; " class="style_12">case</span><span style="line-height: 14px; " class="style_7"> ORIpeV4FLTDecoderForHistogram:<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"></span><span style="line-height: 14px; " class="style_16">//get the card, channel</span><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">card    = </span><span style="line-height: 14px; " class="style_13">extractValue</span><span style="line-height: 14px; " class="style_7">(</span><span style="line-height: 14px; " class="style_14">CurrentRecordPtr</span><span style="line-height: 14px; " class="style_7">[1],0xf0000,16);<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">channel = </span><span style="line-height: 14px; " class="style_13">extractValue</span><span style="line-height: 14px; " class="style_7">(</span><span style="line-height: 14px; " class="style_14">CurrentRecordPtr</span><span style="line-height: 14px; " class="style_7">[1],0x0f000,12);<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">stackid = (card*8)+channel;<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"></span><span style="line-height: 14px; " class="style_13">dumpStack</span><span style="line-height: 14px; " class="style_7">(stackid);</span><span style="line-height: 14px; " class="style_16">//throw away the old one</span><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"></span><span style="line-height: 14px; " class="style_13">push</span><span style="line-height: 14px; " class="style_7">(stackid, </span><span style="line-height: 14px; " class="style_14">CurrentRecordPtr</span><span style="line-height: 14px; " class="style_7">);</span><span style="line-height: 14px; " class="style_16">//push in the new one</span><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"></span><span style="line-height: 14px; " class="style_12">if</span><span style="line-height: 14px; " class="style_7">(stackid &gt; largestStackid) largestStackid=stackid;<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"></span><span style="line-height: 14px; " class="style_12">break</span><span style="line-height: 14px; " class="style_7">;<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"></span><span style="line-height: 14px; " class="style_12">default</span><span style="line-height: 14px; " class="style_7">: <br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"></span><span style="line-height: 14px; " class="style_13">shipRecord</span><span style="line-height: 14px; " class="style_7">(</span><span style="line-height: 14px; " class="style_14">CurrentRecordPtr</span><span style="line-height: 14px; " class="style_7">);<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7"></span><span style="line-height: 14px; " class="style_12">break</span><span style="line-height: 14px; " class="style_7">;<br /></span></p>
+                <p class="paragraph_style_3"><span style="line-height: 14px; " class="style_7">    }</span><span style="line-height: 21px; " class="style_4"><br /></span></p>
+                <p class="Body"><span style="line-height: 25px; " class="style_4"><br /></span></p>
+                <p class="Body">However, in this case the IpeV4Flt records would still NOT trigger the right case and so the filter would not work as expected. Those records would just be shipped because the decoder id would be zero. At least the header would not trigger the case for the IpeV4Flt records.  You should always make sure that all the objects you need are in the configuration.<span style="line-height: 25px; " class="style_4"><br /></span></p>
+              </div>
+            </div>
+          </div>
+          <div style="height: 8974px; line-height: 8974px; " class="spacer"> </div>
+        </div>
+        <div style="height: 150px; margin-left: 0px; position: relative; width: 700px; z-index: 15; " id="footer_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+

@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="Generator" content="iWeb 3.0.4" />
+    <meta name="iWeb-Build" content="local-build-20180321" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <meta name="viewport" content="width=700" />
+    <title>ORCA Scripting Ref</title>
+    <link rel="stylesheet" type="text/css" media="screen,print" href="Scripting_Ref_files/Scripting_Ref.css" />
+    <!--[if lt IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='Scripting_Ref_files/Scripting_RefIE.css'/><![endif]-->
+    <!--[if gte IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='Media/IE8.css'/><![endif]-->
+    <script type="text/javascript" src="Scripts/iWebSite.js"></script>
+    <script type="text/javascript" src="Scripts/Widgets/SharedResources/WidgetCommon.js"></script>
+    <script type="text/javascript" src="Scripts/Widgets/Navbar/navbar.js"></script>
+    <script type="text/javascript" src="Scripts/iWebImage.js"></script>
+    <script type="text/javascript" src="Scripting_Ref_files/Scripting_Ref.js"></script>
+  </head>
+  <body style="background: rgb(255, 255, 255); margin: 0pt; " onload="onPageLoad();" onunload="onPageUnload();">
+    <div style="text-align: center; ">
+      <div style="margin-bottom: 0px; margin-left: auto; margin-right: auto; margin-top: 0px; overflow: hidden; position: relative; word-wrap: break-word;  background: transparent; text-align: left; width: 700px; " id="body_content">
+        <div style="margin-left: 0px; position: relative; width: 700px; z-index: 0; " id="nav_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+          <div class="com-apple-iweb-widget-navbar flowDefining" id="widget0" style="margin-left: 35px; margin-top: 0px; opacity: 1.00; position: relative; width: 630px; z-index: 1; ">
+    
+            <div id="widget0-navbar" class="navbar">
+
+      
+              <div id="widget0-bg" class="navbar-bg">
+
+        
+                <ul id="widget0-navbar-list" class="navbar-list">
+ <li></li> 
+</ul>
+                
+      
+</div>
+              
+    
+</div>
+          </div>
+          <script type="text/javascript"><!--//--><![CDATA[//><!--
+new NavBar('widget0', 'Scripts/Widgets/Navbar', 'Scripts/Widgets/SharedResources', '.', {"path-to-root": "", "navbar-css": ".navbar {\n\tfont-family: Arial, sans-serif;\n\tfont-size: 1em;\n\tcolor: #666;\n\tmargin: 9px 0px 6px 0px;\n\tline-height: 30px;\n}\n\n.navbar-bg {\n\ttext-align: center;\n}\n\n.navbar-bg ul {\n\tlist-style: none;\n\tmargin: 0px;\n\tpadding: 0px;\n}\n\n\nli {\n\tlist-style-type: none;\n\tdisplay: inline;\n\tpadding: 0px 10px 0px 10px;\n}\n\n\nli a {\n\ttext-decoration: none;\n\tcolor: #666;\n}\n\nli a:visited {\n\ttext-decoration: none;\n\tcolor: #666;\n}\n\nli a:hover\r{\r\n \tcolor: #463C3C;\n\ttext-decoration: none;\r}\n\n\nli.current-page a\r{\r\t color: #463C3C;\n\ttext-decoration: none;\n\tfont-weight: bold;\r\r}", "current-page-GUID": "ACD7A5F0-9A45-4AA2-8FDB-0BF6CECB9E13", "isCollectionPage": "NO"});
+//--><!]]></script>
+          <div style="clear: both; height: 0px; line-height: 0px; " class="spacer"> </div>
+        </div>
+        <div style="height: 73px; margin-left: 0px; position: relative; width: 700px; z-index: 10; " id="header_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+          <div id="id1" style="height: 50px; left: 0px; position: absolute; top: 23px; width: 630px; z-index: 1; " class="style_SkipStroke shape-with-text">
+            <div class="text-content style_External_630_50" style="padding: 0px; ">
+              <div class="style">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="Header">ORCA Scripting Ref</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 1px; width: 630px;  height: 1px; left: 35px; position: absolute; top: 3px; width: 630px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 630px; ">
+              <img src="Scripting_Ref_files/shapeimage_1.jpg" alt="" style="height: 1px; left: 0px; position: absolute; top: 0px; width: 630px; " />
+            </div>
+          </div>
+        </div>
+        <div style="margin-left: 0px; position: relative; width: 700px; z-index: 5; " id="body_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+          <div style="height: 1px; line-height: 1px; " class="tinyText"> </div>
+          <div style="margin-left: 0px; margin-top: 15px; position: relative; width: 666px; z-index: 1; " class="style_SkipStroke_3 shape-with-text flowDefining">
+            <div class="text-content style_External_666_1005" style="padding: 0px; ">
+              <div class="style">
+                <p style="padding-top: 0pt; " class="paragraph_style">Overview<br /></p>
+                <div class="paragraph Body"><div style="height: 51px; width: 50px;  clear: left; float: left; height: 51px; margin: 6px 6px 6px 0px; position: relative; width: 50px; " class="tinyText style_SkipStroke_1 inline-block stroke_0 shadow_0"><img src="Scripting_Ref_files/ScriptTask.png" alt="" style="border: none; height: 51px; width: 50px; " /></div>ORCAScript is a small interpreted programming language that can be used to automate some ORCA run-time tasks. Among its design goals were that it could be interpreted using a relatively simple lex/yacc based code, provide a C-like language that would be easy to learn, and provide access to most of the objects in an ORCA configuration. ORCAScripts are created and edited using the ScriptTask object. Scripts are automatically entered into the list of tasks managed by the <a title="Task_Master.html" href="Task_Master.html">Task Master</a> and can be executed either from there of from the ScriptTask object. Note that ORCA also has a <a title="../Data_Chain/Data_Filter.html" href="../Data_Chain/Data_Filter.html">FilterScript</a> language that is meant for processing data streams.<br /></div>
+                <p class="Body"><br /></p>
+                <p class="Body">Scripting examples can be found in the <a title="../Data_Chain/Run_Control.html" href="../Data_Chain/Run_Control.html">RunControl</a>, <a title="Plotting.html" href="Plotting.html">Plotting</a>, and <a title="Manual_Plotter.html" href="Manual_Plotter.html">Manual Plotter</a> sections of this manual.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style">Characteristics<br /></p>
+                <p class="Body">As an C-like language, ORCAScript has the following characteristics:<br /></p>
+                <ol>
+                  <li style="line-height: 20px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_1"><span style="font-size: 15px; " class="Bullet">•</span> The syntax is, as much as possible, the same as C<br /></p>
+                  </li>
+                  <li style="line-height: 20px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_1"><span style="font-size: 15px; " class="Bullet">•</span> A procedural programming paradigm, with facilities for structured programming<br /></p>
+                  </li>
+                  <li style="line-height: 20px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_1"><span style="font-size: 15px; " class="Bullet">•</span> A small set (around 15) of reserved keywords<br /></p>
+                  </li>
+                  <li style="line-height: 20px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_1"><span style="font-size: 15px; " class="Bullet">•</span> Function parameters are passed by value<br /></p>
+                  </li>
+                  <li style="line-height: 20px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_1"><span style="font-size: 15px; " class="Bullet">•</span> Recursion is supported<br /></p>
+                  </li>
+                </ol>
+                <p class="Body"><br /></p>
+                <p class="Body">ORCAScript also has the following specific properties:<br /></p>
+                <ol>
+                  <li style="line-height: 20px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_1"><span style="font-size: 15px; " class="Bullet">•</span> Variables are untyped and treated internally as NSDecimalNumber objects.<br /></p>
+                  </li>
+                  <li style="line-height: 20px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_1"><span style="font-size: 15px; " class="Bullet">•</span> Variables are global in scope within each function<br /></p>
+                  </li>
+                  <li style="line-height: 20px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_1"><span style="font-size: 15px; " class="Bullet">•</span> Arrays are allowed<br /></p>
+                  </li>
+                  <li style="line-height: 20px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_1"><span style="font-size: 15px; " class="Bullet">•</span> Access to objects in an ORCA configuration is supported using Obj-C syntax<br /></p>
+                  </li>
+                  <li style="line-height: 20px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_1"><span style="font-size: 15px; " class="Bullet">•</span> If you have a pointer to an object, then the methods of that object can be called. This includes, for example, being able to use the NSString methods on string variables.<br /></p>
+                  </li>
+                  <li style="line-height: 20px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_1"><span style="font-size: 15px; " class="Bullet">•</span> The common C math functions are supported, i.e.: pow, sqrt, ceil, floor, round, cos, sin, tan, acos, asin, atan, abs, exp, log, log10, fmod.<br /></p>
+                  </li>
+                </ol>
+                <p class="paragraph_style_2"><span style="line-height: 21px; " class="style_1"><br /></span></p>
+                <p class="Body"><span style="line-height: 25px; " class="style_1">Limitations:</span><br /></p>
+                <ol>
+                  <li style="line-height: 20px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_1"><span style="font-size: 15px; " class="Bullet">•</span> With the exception of ORCA configuration object access, there are no pointers <br /></p>
+                  </li>
+                  <li style="line-height: 20px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_1"><span style="font-size: 15px; " class="Bullet">•</span> No structures, enums, or typedefs<br /></p>
+                  </li>
+                  <li style="line-height: 20px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_1"><span style="font-size: 15px; " class="Bullet">•</span> Strings are allowed only in print, logfile, strcat functions, and as arguments to Obj-C methods<br /></p>
+                  </li>
+                  <li style="line-height: 20px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_1"><span style="font-size: 15px; " class="Bullet">•</span> In some cases, misspellings of certain keywords (i.e. break) will not be caught by the parser<br /></p>
+                  </li>
+                  <li style="line-height: 20px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_1"><span style="font-size: 15px; " class="Bullet">•</span> Some limits apply to the methods that can be called on Cocoa foundation objects, for example, the NSString formatting methods can not be called because they use a variable argument list.<br /></p>
+                  </li>
+                </ol>
+                <p class="Body"><br /></p>
+                <p class="Body"><span style="line-height: 25px; " class="style_1">Script Task Object</span><br /></p>
+                <div class="paragraph Body"><div style="height: 51px; width: 50px;  clear: left; float: left; height: 51px; margin: 6px 6px 6px 0px; position: relative; width: 50px; " class="tinyText style_SkipStroke_2 inline-block stroke_0"><img src="Scripting_Ref_files/ScriptTask_1.png" alt="" style="border: none; height: 51px; width: 50px; " /></div><br /></div>
+                <p class="Body">The ScriptTask object is a run-time environment for creating and executing tasks written in OCRAScript. Double-clicking on the icon will bring up the <a title="Script_IDE.html" href="Script_IDE.html">Script IDE</a>.<br /></p>
+                <p class="Body"><br /></p>
+                <p style="padding-bottom: 0pt; " class="Body">Once scripts are written and debugged, they can be chained together to do even more complex tasks. Here is a example of a chain of four tasks. However, note that the third task in the chain has the 'break chain' option selected. In this case only the first three tasks will run. The return value from each finished task will be passed into the next task in the chain as a function argument.</p>
+              </div>
+              <div style="clear: both; height: 0px; line-height: 0px; " class="tinyText"> </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 253px; width: 113px;  height: 253px; left: 161px; position: absolute; top: 1030px; width: 113px; z-index: 1; " class="tinyText style_SkipStroke_2 stroke_0">
+            <img src="Scripting_Ref_files/Picture%207.jpg" alt="" style="border: none; height: 253px; width: 113px; " />
+          </div>
+          
+
+
+          <div style="height: 7px; width: 92px;  height: 1px; left: 79px; position: absolute; top: 1066px; width: 92px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 92px; ">
+              <img src="Scripting_Ref_files/shapeimage_2.png" alt="" style="height: 7px; left: 0px; margin-top: -3px; position: absolute; top: 0px; width: 92px; " />
+            </div>
+          </div>
+          
+
+
+          <div id="id2" style="height: 26px; left: 25px; position: absolute; top: 1056px; width: 87px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_1">
+            <div class="text-content graphic_textbox_layout_style_default_External_85_24" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_3">Running Task</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 7px; width: 118px;  height: 1px; left: 269px; position: absolute; top: 1121px; width: 118px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 118px; ">
+              <img src="Scripting_Ref_files/shapeimage_3.png" alt="" style="height: 7px; left: 0px; margin-top: -3px; position: absolute; top: 0px; width: 118px; " />
+            </div>
+          </div>
+          
+
+
+          <div id="id3" style="height: 43px; left: 330px; position: absolute; top: 1100px; width: 119px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_2">
+            <div class="text-content graphic_textbox_layout_style_default_External_117_41" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_3">This will run when the first task is done</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 7px; width: 80px;  height: 1px; left: 86px; position: absolute; top: 1180px; width: 80px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 80px; ">
+              <img src="Scripting_Ref_files/shapeimage_4.png" alt="" style="height: 7px; left: 0px; margin-top: -3px; position: absolute; top: 0px; width: 80px; " />
+            </div>
+          </div>
+          
+
+
+          <div id="id4" style="height: 60px; left: 9px; position: absolute; top: 1151px; width: 124px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_3">
+            <div class="text-content graphic_textbox_layout_style_default_External_122_58" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_3">This task will run, but will <span class="style_2">NOT</span> execute the next task in the chain</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 7px; width: 118px;  height: 1px; left: 274px; position: absolute; top: 1238px; width: 118px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 118px; ">
+              <img src="Scripting_Ref_files/shapeimage_5.png" alt="" style="height: 7px; left: 0px; margin-top: -3px; position: absolute; top: 0px; width: 118px; " />
+            </div>
+          </div>
+          
+
+
+          <div id="id5" style="height: 60px; left: 335px; position: absolute; top: 1217px; width: 156px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_4">
+            <div class="text-content graphic_textbox_layout_style_default_External_154_58" style="padding: 1px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_3">This will NOT automatically run because the chain is broken</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div id="id6" style="height: 12800px; left: 8px; position: absolute; top: 1301px; width: 683px; z-index: 1; " class="style_SkipStroke_5 shape-with-text">
+            <div class="text-content graphic_textbox_layout_style_default_External_683_12800" style="padding: 0px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-top: 0pt; " class="Body">All scripts are entered into the list of tasks in the <a title="Task_Master.html" href="Task_Master.html">TaskMaster</a> and can be executed from there as well.<br /></p>
+                <p class="Body"><span style="line-height: 34px; " class="style_3"><br /></span></p>
+                <p class="Body"><span style="line-height: 34px; " class="style_3">Language Reference</span><br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span style="line-height: 25px; " class="style_1">Introduction</span><br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">With some limitations, ORCAScript is essentially a sub-set of the 'C' language. A couple of new keywords and some Obj-C syntax are introduced to facilitate interaction with the ORCA run-time.<br /></p>
+                <p class="Body">An introduction, here is the ubiquitous 'hello world' example in ORCAScript:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_4">1 function main(a)<br /></p>
+                <p class="paragraph_style_4">2 {<br /></p>
+                <p class="paragraph_style_4">3     print (&quot;hello world -- I got passed a = &quot;, a);<br /></p>
+                <p class="paragraph_style_4">4     a++;<br /></p>
+                <p class="paragraph_style_4">5     return a;<br /></p>
+                <p class="paragraph_style_4">6 }<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">Looks a lot like 'C' doesn't it? Some notes on the example:<br /></p>
+                <p class="Body"><span class="style_4">Line 1. </span>The main function definition. All scripts must have a main function. Other functions may either precede or follow the main function. Note that the variable 'a' is not typed. The only variables that need to be defined are array variables. Uninitialized variables are set to zero the first time they are accessed.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span class="style_4">Line 3.</span> ORCAScript's output function is print. The bracketing '(' ')' s are optional. This function just outputs its argument list, which is a comma separated list of strings, variables, and constants.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span class="style_4">Line 5.</span> When the main function returns the next script in the chain is started. The return value of the main function will be passed into the next script in the chain. If no scripts follow, the return value will be ignored.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span style="line-height: 25px; " class="style_1">Importing Scripts <br /></span></p>
+                <p class="Body">You can import scripts from external files using the #import command.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_4">1 #import “~/myDirOfScripts/greatScript”<br /></p>
+                <p class="paragraph_style_4">2 function main()<br /></p>
+                <p class="paragraph_style_4">3 {<br /></p>
+                <p class="paragraph_style_4">4     a = greatScriptMethod();<br /></p>
+                <p class="paragraph_style_4">5     print “The returned value was: “,a;<br /></p>
+                <p class="paragraph_style_4">6 }<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">The full path name must be used. Do not put a main() function in any of the files that are to be imported. If duplicate method names are found, the last one processed will be the one used. You can import multiple files.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span style="line-height: 25px; " class="style_1">Variables<br /></span></p>
+                <p class="Body"><br /></p>
+                <p class="Body">Variables in ORCAScript are easy-- just use them. Variables are untyped and initialized to zero by default. In general, things should work as you would expect; if you add a float and an integer, the result will be a float. The resulting precision will follow the use of NSDecimalNumber objects. Check with Apple's Cocoa documentation if you have questions in this area.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span style="line-height: 25px; " class="style_1">Global Variables<br /></span></p>
+                <p class="Body"><br /></p>
+                <p class="Body">You can define a group of variables that are global to all functions:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_5">global a,b,c=6,e;<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">The global keyword can only appear in the main function and should be the first line(s) in the main function. It is legal to appear later in the script, but any variables that are used before the global definition will be moved into the global symbol table.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span style="line-height: 25px; " class="style_1">Arrays</span><br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">There are two ways to define arrays.<br /></p>
+                <p class="Body">The first way is similar to the ways are defined in ‘C’. In this case arrays are defined using the keyword array and must be given with a max array size. The syntax is:<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="paragraph_style_4">array anArray[10];<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">You can initialize arrays when they are defined like so:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">array <span class="style_4">anArray</span>[3] = {5,6,7};<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">The second way is to use the @[..] syntax which defines the initial length and also loads the array with some initial values:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">anArray = @[5,6,7];<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">Either way, once defined the array can be accessed with same syntax as 'C'. The print command will print out the entire array if just the array name is given. For example:<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="paragraph_style_4">array anArray[4];<br /></p>
+                <p class="paragraph_style_4">anArray[2] = 3.2;<br /></p>
+                <p class="paragraph_style_4">anArray[3] = 1;<br /></p>
+                <p class="paragraph_style_4">print &quot;The array = &quot;,anArray;<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="Body">will print out the following to the status log:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span class="style_4">The array = (0,0,3.2,1)</span><br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">Note that the array in this example contained a mix of integer and float values and it works as expected. Stepping beyond the bounds of an array will cause an exception that will cause the script to exit prematurely.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">There is one major limitation in the use of arrays -- some operators can not be used. In particular, you can not use any of the operators that assign a value back into the array, i.e. +=, -=, *=, ++, etc... And unfortunately, those constructs will parse correctly--you'll just get a run-time exception when they are executed.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span style="line-height: 25px; " class="style_1">Predefined Constants</span><br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">There are some predefined constants. The values should be obvious:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_4">true, false, TRUE, FALSE<br /></p>
+                <p class="paragraph_style_4">yes, no, YES, NO<br /></p>
+                <p class="paragraph_style_4">nil, NUL<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span style="line-height: 25px; " class="style_1">Functions<br /></span></p>
+                <p class="Body"><br /></p>
+                <p class="Body">Functions take the form:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span class="style_4">function name ( [optional comma separated list of arguments])</span><br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">ORCAScript follows C in that you must define a main function. Other functions may be defined anywhere in the script, either before or after the main function--it doesn't matter. Calling a function is just in C. Here's an example:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_4">function main()<br /></p>
+                <p class="paragraph_style_4">{<br /></p>
+                <p class="paragraph_style_4">    a = valuePlusOne(3);<br /></p>
+                <p class="paragraph_style_4">    print a;<br /></p>
+                <p class="paragraph_style_4">}<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="paragraph_style_4">function valuePlusOne(x)<br /></p>
+                <p class="paragraph_style_4">{<br /></p>
+                <p class="paragraph_style_4">    return x+1;<br /></p>
+                <p class="paragraph_style_4">}<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="Body">That example will obviously print out 4.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">Since functions can be directly or indirectly recursive, care must be taken to ensure program correctness to prevent infinite recursion. Just like in C and other languages, this can not be checked for and would cause a crash of the entire ORCA environment.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span style="line-height: 25px; " class="style_1">Loops</span><br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">All of the 'C' language loop constructs are allowed.<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="paragraph_style_4">do {<br /></p>
+                <p class="paragraph_style_4">    &lt;statements&gt;<br /></p>
+                <p class="paragraph_style_4">}while(&lt;condition&gt;);<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="paragraph_style_4">while(&lt;condition&gt;) {<br /></p>
+                <p class="paragraph_style_4">    &lt;statements&gt;<br /></p>
+                <p class="paragraph_style_4">};<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="paragraph_style_4">for(i=0;i&lt;10;i++){<br /></p>
+                <p class="paragraph_style_4">    &lt;statements&gt;<br /></p>
+                <p class="paragraph_style_4">}<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="paragraph_style_6">If you are iterating over an array or a dictionary, it is possible to use the Obj-C syntax:<br /></p>
+                <p class="paragraph_style_6"><br /></p>
+                <p class="paragraph_style_4">for(anItem in anArray){<br /></p>
+                <p class="paragraph_style_4">    &lt;statements&gt;<br /></p>
+                <p class="paragraph_style_4">}<br /></p>
+                <p class="paragraph_style_6">in the case of a dictionary you will be looping over the dictionary’s keys rather than the values:<br /></p>
+                <p class="paragraph_style_6"><br /></p>
+                <p class="paragraph_style_4">for(aKey in aDictionary){<br /></p>
+                <p class="paragraph_style_4">    &lt;statements&gt;<br /></p>
+                <p class="paragraph_style_4">}<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="Body">The <span class="style_4">break</span> and <span class="style_4">continue</span> statements work same as in 'C'.<br /></p>
+                <p class="Body">The <span class="style_4">exit</span> statement causes the script to exit completely and return 0;<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span style="line-height: 25px; " class="style_1">Flow Control and Branching<br /></span></p>
+                <p class="Body"><br /></p>
+                <p class="Body">All of the 'C' language flow control constructs are allowed.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_4">if(&lt;condition&gt;){<br /></p>
+                <p class="paragraph_style_4">    &lt;statements&gt;<br /></p>
+                <p class="paragraph_style_4">}<br /></p>
+                <p class="paragraph_style_4">else {<br /></p>
+                <p class="paragraph_style_4">    &lt;statements&gt;<br /></p>
+                <p class="paragraph_style_4">}<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="paragraph_style_4">switch(&lt;variable&gt;){<br /></p>
+                <p class="paragraph_style_4">case &lt;val&gt;:<br /></p>
+                <p class="paragraph_style_4">    &lt;statements&gt;<br /></p>
+                <p class="paragraph_style_4">break;<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="paragraph_style_4">case &lt;val1&gt;  &lt;=&lt; &lt;val2&gt;:  // if switch variable is in range of val1 and val2 inclusive<br /></p>
+                <p class="paragraph_style_4">   &lt;statements&gt;<br /></p>
+                <p class="paragraph_style_4">break;<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="paragraph_style_4">...<br /></p>
+                <p class="paragraph_style_4">...<br /></p>
+                <p class="paragraph_style_4">default:<br /></p>
+                <p class="paragraph_style_4">&lt;statements&gt;<br /></p>
+                <p class="paragraph_style_4">break;<br /></p>
+                <p class="paragraph_style_4">}<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="Body"><span style="line-height: 25px; " class="style_1">Special Switch Case Statements<br /></span></p>
+                <p class="Body"><span style="line-height: 25px; " class="style_1"><br /></span></p>
+                <p class="Body">There are some unique conditional case statements, which let you streamline a group of checks. Here are some examples:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_4">switch(x){<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="paragraph_style_4">    case &lt; 2: //check if x &lt; 2<br /></p>
+                <p class="paragraph_style_4">        &lt;statements&gt;<br /></p>
+                <p class="paragraph_style_4">    break;<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="paragraph_style_4">   case &lt;= 6: //check if x &lt;= 6<br /></p>
+                <p class="paragraph_style_4">        &lt;statements&gt;<br /></p>
+                <p class="paragraph_style_4">    break;<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="paragraph_style_4">  case 7 &lt;=&lt; 15: //check if 7 &lt;= x &lt;=15 inclusive<br /></p>
+                <p class="paragraph_style_4">        &lt;statements&gt;<br /></p>
+                <p class="paragraph_style_4">    break;<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="paragraph_style_4">case 20 &lt;&lt; 30: //check if 20 &lt; x &lt; 30<br /></p>
+                <p class="paragraph_style_4">        &lt;statements&gt;<br /></p>
+                <p class="paragraph_style_4">    break;<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="paragraph_style_4">  case &gt; 30: //check if x &gt; 30<br /></p>
+                <p class="paragraph_style_4">        &lt;statements&gt;<br /></p>
+                <p class="paragraph_style_4">    break;<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="paragraph_style_4">   case &gt;= 40: //check if x &gt;= 40<br /></p>
+                <p class="paragraph_style_4">        &lt;statements&gt;<br /></p>
+                <p class="paragraph_style_4">    break;<br /></p>
+                <p class="paragraph_style_4">}<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="Body">Note that the case statements are executed in order.<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="Body"><span style="line-height: 25px; " class="style_1">Exception Handling<br /></span></p>
+                <p class="Body"><br /></p>
+                <p class="Body">It is possible that calls to Cocoa or Obj-C objects will fail with an exception. An example is stepping past the bounds of an NSArray. Normally such an exception would cause ORCAScript to exit, but if you need to try to continue or fix the problem that caused the exception you can use an exception handler. The syntax is:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_4">try {<br /></p>
+                <p class="paragraph_style_4">    &lt;statements&gt;<br /></p>
+                <p class="paragraph_style_4">}<br /></p>
+                <p class="paragraph_style_4">catch (&lt;variable&gt;) {<br /></p>
+                <p class="paragraph_style_4">    &lt;statements&gt;<br /></p>
+                <p class="paragraph_style_4">}<br /></p>
+                <p class="paragraph_style_4">finally {<br /></p>
+                <p class="paragraph_style_4">    &lt;statements&gt;<br /></p>
+                <p class="paragraph_style_4">}<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="Body">The variable in the <span class="style_5">catch</span> block contains a string with the reason the exception was thrown. <br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">The <span class="style_5">finally</span> block is optional and will be executed whether or not an exception was generated in the try block.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">If you need the script to exit after catching an exception you will have to call <span class="style_5">exit</span>, otherwise the script will continue to run.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">You can throw an exception by making an NSException object and raising it:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_5">anException = nsexception(“Name”,”Reason”,@{“userInfo”,”more Info”});<br /></p>
+                <p class="paragraph_style_5">[anException raise];<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">or throwing it:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_5">throw(anException);<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">Exceptions that are raised or thrown will be caught by an exception handler if one exists.<br /></p>
+                <p class="Body">If a handler does not exist, the script will exit.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span style="line-height: 25px; " class="style_1">Printing and Logging<br /></span></p>
+                <p class="Body"><br /></p>
+                <p class="Body">Printing is a cross between 'C' and 'C++'. A list of arguments are just printing in the same order as defined. The syntax is:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span class="style_4">print [(] &lt;list of variables and or strings&gt; [)];</span><br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">Note that the bracketing parentheses are optional. Arrays may part of the list of variables to be printed and will be printed as a parentheses bracketed list.<br /></p>
+                <p class="Body">Examples:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_4">for(i=0;i&lt;6;i++){<br /></p>
+                <p class="paragraph_style_4">    print &quot;The variable is: &quot;,i;<br /></p>
+                <p class="paragraph_style_4">}<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="Body">Will print out:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_4">The variable is: 0<br /></p>
+                <p class="paragraph_style_4">The variable is: 1<br /></p>
+                <p class="paragraph_style_4">The variable is: 2<br /></p>
+                <p class="paragraph_style_4">The variable is: 3<br /></p>
+                <p class="paragraph_style_4">The variable is: 4<br /></p>
+                <p class="paragraph_style_4">The variable is: 5<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="Body"><span style="line-height: 25px; " class="style_1">Printing functions</span><br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">There are some functions to help format printed output. They are:<br /></p>
+                <p class="Body"><span class="style_4"><br /></span></p>
+                <p class="Body"><span class="style_4">hex(&lt;var&gt;);<br /></span></p>
+                <p class="Body"><br /></p>
+                <p class="Body">The hex() function takes a single argument and returns a hex value in string format.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span class="style_4">string(&lt;list of variables and strings&gt;); <br /></span></p>
+                <p class="Body"><span class="style_4">strcat(&lt;list of variables and strings&gt;);</span><br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">The string() function takes a comma separated list of arguments and format the result into a string delimited by spaces.<br /></p>
+                <p class="Body">The strcat() function takes a comma separated list of arguments and format the result into a string without spaces.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">Strings can also be concatenated with ‘+’.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">Examples:<br /></p>
+                <p class="paragraph_style_4">print string(&quot;The hex value of 255 is &quot;,hex(255)); //outputs &quot;The hex value of 255 is 0xff&quot;<br /></p>
+                <p class="paragraph_style_4">print &quot;The hex value of 255 is &quot;,hex(255);            //outputs &quot;The hex value of 255 is 0xff&quot;<br /></p>
+                <p class="paragraph_style_4">print hex(255);                                                      //outputs 0xff<br /></p>
+                <p class="paragraph_style_4">print strcat(“a”,1);                                                 //outputs “a1”<br /></p>
+                <p class="Body">print “Hello” + “ “ + “World”;                                 //prints “Hello World”<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span style="line-height: 25px; " class="style_1">Logging to Output Files<br /></span></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span class="style_4">logfile [(] &lt;list of variables and or strings that make a path name&gt; [)];</span><br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">Examples:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span class="style_4">logfile &quot;~/MyOutputLog&quot;,10 ; //the output file is now &quot;MyOutputLog10&quot; in your home dir.<br /></span></p>
+                <p class="Body"><span class="style_4">print &quot;HELLO&quot;; //outputs to both the status log and to MyOutputLog10 file.</span><br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">Note that output files are never deleted. Output is appended to the end of existing files. If you wish to start a new empty file with the same name, you must manually delete the old file.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span style="line-height: 25px; " class="style_1">File I/O<br /></span></p>
+                <p class="Body"><span style="line-height: 25px; " class="style_1"><br /></span></p>
+                <p class="Body">There is only very limited file I/O, but it can be used for simple tasks. The functions are:<br /></p>
+                <p class="Body"><span style="line-height: 25px; " class="style_1"><br /></span></p>
+                <p class="Body"><span class="style_4">stringFromFile(&lt;path&gt;);          //returns the content of a file as a string</span><br /></p>
+                <p class="Body"><span class="style_4">writeLine(&lt;path&gt;,&lt;string&gt;);    //appends the string to the file and adds a newline character</span><br /></p>
+                <p class="Body"><span class="style_4">deleteFile(&lt;path&gt;);                //deletes the file</span><br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">The following example writes “Hello World” to a file in the users home folder, reads the contents of the file back into a string, then deletes the file.<br /></p>
+                <p class="paragraph_style_7"><br /></p>
+                <p class="paragraph_style_8"><span class="style_6">function</span> main() {<br /></p>
+                <p class="paragraph_style_8">  s = <span class="style_6">@</span><span class="style_7">&quot;hello world&quot;</span>;<br /></p>
+                <p class="paragraph_style_8">  path = <span class="style_6">@</span><span class="style_7">&quot;~/TestFile.txt&quot;</span>;<br /></p>
+                <p class="paragraph_style_8">  <span class="style_6">writeLine</span>(path,s);<br /></p>
+                <p class="paragraph_style_8"><br /></p>
+                <p class="paragraph_style_8">  contents = <span class="style_6">stringFromFile</span>(path);<br /></p>
+                <p class="paragraph_style_8">  <span class="style_6">print</span> contents;<br /></p>
+                <p class="paragraph_style_8"><br /></p>
+                <p class="paragraph_style_8">  <span class="style_6">deleteFile</span>(path);<br /></p>
+                <p class="paragraph_style_8">}<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">String manipulation can be done using the NSString functions.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span style="line-height: 25px; " class="style_1">Supported Math functions</span><br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">The supported math functions include:<br /></p>
+                <p class="paragraph_style_4">pow(), sqrt(), ceil(), floor(), round(), cos(), acos()<br /></p>
+                <p class="paragraph_style_4">sin(), asin(), tan(), atan(), abs(), exp(), log(), log10(), fmod()<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span style="line-height: 25px; " class="style_1">Integration With ORCA<br /></span></p>
+                <p class="Body"><br /></p>
+                <p class="Body">It is simple to interact with many of the objects in an ORCA configuration. There basically two steps:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">1) Get an object reference to an ORCA object<br /></p>
+                <p class="Body">2) Send a message to that object<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">To get an object reference, use the find() function, the syntax is :<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_4">objRef = find(&lt;ORCA Object Class Name&gt;); or<br /></p>
+                <p class="paragraph_style_4">objRef = find(&lt;ORCA Object Class Name&gt;,&lt;slot or tag #&gt;); or<br /></p>
+                <p class="paragraph_style_4">objRef = find(&lt;ORCA Object Class Name&gt;,&lt;crate #&gt;,&lt;slot or tag #&gt;); <br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">If the object is NOT a card object and tag # is left off, the first object found will be used.<br /></p>
+                <p class="Body">If the object IS a card object, the crate number will default to 1 and the only the first crate will be searched for objects. For cards, you must supply at least the slot number. For CAMAC and IPE cards, use the station number.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span class="style_2">Note</span>: you can drag an object from the configuration window into the script editor to get the proper identification string can should be used in the <span class="style_4">find</span> command. <br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">Once you have the objRef you can use regular ObjC syntax to send a message to the object. <br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">Here's an example:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span class="style_4">1 rc = find(ORRunMode);<br /></span></p>
+                <p class="Body"><span class="style_4">2 if([rc isRunning])print &quot;Yes--Running&quot;;<br /></span></p>
+                <p class="Body"><span class="style_4">3 else print &quot;No-- NOT Running&quot;;<br /></span></p>
+                <p class="Body"><span class="style_4"><br /></span></p>
+                <p class="Body">Line 1: Finds the Run control object in the configuration.<br /></p>
+                <p class="Body">Lines 2: Sends a 'isRunning' message to the run control object, which returns a bool.<br /></p>
+                <p class="Body">Lines 2,3: Print out the result.<br /></p>
+                <p class="Body"><span class="style_4"><br /></span></p>
+                <p class="Body"><span class="style_4">1 shaper = find(ORShaperModel,2);<br /></span></p>
+                <p class="Body"><span class="style_4">2 [shaper setThreshold: chan withValue:aValue];<br /></span></p>
+                <p class="Body"><span class="style_4">3 print &quot;The Theshold value for channel &quot;, chan, &quot;is &quot;,[shaper threshold:chan];</span><br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">Line 1: Finds the Shaper card object in slot 2. (crate # is defaulted to 1)<br /></p>
+                <p class="Body">Line 2: Sets the threshold for one of the channels.<br /></p>
+                <p class="Body">Line 3: Reads back and prints out the threshold.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span class="style_2">Note</span>: A couple of things to take note about talking when talking to ORCA objects.<br /></p>
+                <ol>
+                  <li style="line-height: 20px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_1"><span style="font-size: 15px; " class="Bullet">•</span> You can not call methods that take structures (i.e. NSRange structures) as arguments. The exceptions are the NSPoint and NSRect structures. Create a NSPoint struct using the point(x,y) fuction and the NSRect struct with rect(x,y,w,h).<br /></p>
+                  </li>
+                  <li style="line-height: 20px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_1"><span style="font-size: 15px; " class="Bullet">•</span> You can not call methods that return stuctures.<br /></p>
+                  </li>
+                  <li style="line-height: 20px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_1"><span style="font-size: 15px; " class="Bullet">•</span> Arrays should be OK as arguments and return values.<br /></p>
+                  </li>
+                  <li style="line-height: 20px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_1"><span style="font-size: 15px; " class="Bullet">•</span> For the most part, you can only access Objects in the configuration. With few exceptions other objects, such as the main document can not be reached.<br /></p>
+                  </li>
+                  <li style="line-height: 20px; padding-left: 0px; text-indent: 0px; " class="full-width">
+                    <p style="text-indent: 0px; " class="paragraph_style_1"><span style="font-size: 15px; " class="Bullet">•</span> It is OK to pass the object pointer to functions and it is recommended that you do so, as finding objects is a relatively expensive operation and it is much more efficient to only find them once.<br /></p>
+                  </li>
+                </ol>
+                <p class="Body"><br /></p>
+                <p class="Body">Here’s another example to start a run, wait until the run is in progress then do some unspecified action:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_4">function main()<br /></p>
+                <p class="paragraph_style_4">{<br /></p>
+                <p class="paragraph_style_4">rc = find(ORRunModel);<br /></p>
+                <p class="paragraph_style_4">if(rc){<br /></p>
+                <p class="paragraph_style_4">[rc startRun];<br /></p>
+                <p class="paragraph_style_4">waituntil([rc isRunning]);<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="paragraph_style_4">//do something<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="paragraph_style_4">[rc stopRun];<br /></p>
+                <p class="paragraph_style_4">}<br /></p>
+                <p class="paragraph_style_4">else print &quot;couldn’t find run control&quot;;<br /></p>
+                <p class="paragraph_style_4">}<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span style="line-height: 25px; " class="style_1">Special ObjC functions</span><br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_4">point(x,y) //makes a NSPoint struct<br /></p>
+                <p class="paragraph_style_4">rect(x,y,w,h) //makes a NSRect struct<br /></p>
+                <p class="paragraph_style_4">range(loc,len) //makes a NSRange struct<br /></p>
+                <p class="paragraph_style_4">pointx(&lt;point structure&gt;) //returns x value<br /></p>
+                <p class="paragraph_style_4">pointy(&lt;point structure&gt;) //returns y value<br /></p>
+                <p class="paragraph_style_4">rectx(&lt;rect structure&gt;) //returns x value<br /></p>
+                <p class="paragraph_style_4">recty(&lt;rect structure&gt;) //returns y value<br /></p>
+                <p class="paragraph_style_4">recth(&lt;rect structure&gt;) //returns h value<br /></p>
+                <p class="paragraph_style_4">rectw(&lt;rect structure&gt;) //returns w value<br /></p>
+                <p class="paragraph_style_4">rangeloc(&lt;range structure&gt;) //returns location value<br /></p>
+                <p class="paragraph_style_4">rangelen(&lt;range structure&gt;) //returns length value<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style">Other Special Functions<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">There are some special functions:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_4">waituntil(&lt;condition&gt;); //waits until the condition is true, always returns true<br /></p>
+                <p class="paragraph_style_4">waituntil(&lt;condition&gt;,&lt;#secs&gt;); //waits until the condition is true OR for # seconds.<br /></p>
+                <p class="paragraph_style_4">//returns true is &lt;condition&gt; is met, false if timed-out.<br /></p>
+                <p class="paragraph_style_4">sleep(&lt;duration&gt;); //yields the script thread in 0.01 time slices for the duration.<br /></p>
+                <p class="paragraph_style_4">yield(&lt;duration&gt;); //like sleep, but yields for 1 full second per time slice. Uses less cpu as a result.<br /></p>
+                <p class="paragraph_style_4">postalarm(&lt;alarmName&gt;,&lt;alarmSeverity&gt; [,&lt;alarmHelp&gt;]);<br /></p>
+                <p class="paragraph_style_4">clearalarm(&lt;alarmName&gt;);<br /></p>
+                <p class="paragraph_style_4">nsdictionary(); //creates an NSDictionary object<br /></p>
+                <p class="paragraph_style_4">nsdictionary(&lt;key1&gt;,&lt;value1&gt;,...); //creates an NSDictionary object from a list of keys and values<br /></p>
+                <p class="paragraph_style_4">@{&lt;key1&gt;:&lt;value1&gt;,...} //creates an NSDictionary object from a list of keys and values<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="paragraph_style_4">nsarray(); //creates an NSArray object<br /></p>
+                <p class="paragraph_style_4">nsarray(&lt;value1&gt;,...); //creates an NSArray object from a list of values<br /></p>
+                <p class="paragraph_style_4">@[&lt;value1&gt;,...] //creates an NSArray object from a list of values<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="paragraph_style_4">nsexception(&lt;name&gt;,&lt;reason&gt;,&lt;userInfo dictionary&gt;); //creates an NSException object<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="paragraph_style_4">nsfilemanager(); //creates an NSFileManager object<br /></p>
+                <p class="paragraph_style_4">seedRandom(); //seeds a random number generator<br /></p>
+                <p class="paragraph_style_4">random(&lt;min&gt;,&lt;max&gt;); //returns a random number between &lt;min&gt; and &lt;max&gt;<br /></p>
+                <p class="paragraph_style_4">sort(&lt;array or dictionary&gt;); //returns the array or a dictionary’s keys sorted in ascending order<br /></p>
+                <p class="paragraph_style_4">sortRev(&lt;array or dictionary&gt;); //returns the array or a dictionary’s keys sorted in descending order<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="Body">Note: The <span class="style_4">waituntil()</span> function is only useful if the condition can change. This means you should only call it where the condition is an ORCA object call. An example:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_4">1 rc = find(ORRunModel);<br /></p>
+                <p class="paragraph_style_4">2 waituntil([rc isRunning]);<br /></p>
+                <p class="paragraph_style_4">3 if([rc isRunning]) print (&quot;Yep, we are running&quot;);<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">Line 1: Finds the Run Control object.<br /></p>
+                <p class="Body">Line 2: Execution will stop here until a run is in progress.<br /></p>
+                <p class="Body">Line 3: When the run starts execution will continue here.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style">Date and Time Functions<br /></p>
+                <p class="paragraph_style"><br /></p>
+                <p class="Body">There are some date and time functions built into the main base class that can be accessed by getting a reference to <span class="style_4">any object in the configuration</span>. An example:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_9"><span class="style_6">function</span> main()<span class="style_6"><br /></span></p>
+                <p class="paragraph_style_9">{<br /></p>
+                <p class="paragraph_style_9">  s = <span class="style_6">find</span>(ORRunModel,1);<br /></p>
+                <p class="paragraph_style_9">  <span class="style_6">print</span> [s month],<span class="style_8">&quot;/&quot;</span>,[s day],<span class="style_8">&quot;/&quot;</span>,[s year],<span class="style_8">&quot; &quot;</span>,[s hour],<span class="style_8">&quot;:&quot;</span>,[s minute],<span class="style_8">&quot;:&quot;</span>,[s second];<br /></p>
+                <p class="paragraph_style_9">}<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">The output looks something like this:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_10"><span class="style_9">032610 08:48:20 </span><span class="style_10">[OrcaScript] The date is: 3 / 26 / 2010   8 : 48 : 20</span><br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style">Mail Functions<br /></p>
+                <p class="paragraph_style"><br /></p>
+                <p class="Body">It is possible to send eMail using a script. An example:<br /></p>
+                <p class="paragraph_style"><br /></p>
+                <p class="paragraph_style_11"><span class="style_6">function</span> main()<br /></p>
+                <p class="paragraph_style_11">{<br /></p>
+                <p class="paragraph_style_11">  i = 10;<br /></p>
+                <p class="paragraph_style_11">  s = <span class="style_6">find</span>(ORScriptTaskModel,1);<br /></p>
+                <p class="paragraph_style_11">  content = <span class="style_7">&quot;Hi\nThis was sent from an ORCA script\nMark\n\n&quot;</span>;<br /></p>
+                <p class="paragraph_style_11">  content = <span class="style_6">strcat</span>(content,<span class="style_7">&quot;The Value is:&quot;</span>,i,<span class="style_7">&quot;\nTimes 5:&quot;</span>,i*5,<span class="style_7">&quot;\nTimes 10:&quot;</span>,i*10);<br /></p>
+                <p class="paragraph_style_11">  [s sendMailTo:<span class="style_7">&quot;</span><a title="mailto:mhowe@physics.unc.edu" href="mailto:mhowe@physics.unc.edu">mhowe@physics.unc.edu</a><span class="style_7">&quot;</span> cc:<span class="style_11">nil</span> subject:<span class="style_7">&quot;script mail test&quot;</span> content:content];<br /></p>
+                <p class="paragraph_style_11">}<span style="line-height: 14px; " class="style_12"><br /></span></p>
+                <p class="paragraph_style_12"><span class="style_4"><br /></span></p>
+                <p class="Body">You have to cascade multiple calls to strcat to build up complex content. Note -- a recent addition to ORCAScript allows the use of ‘+’ to concatenate strings also.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style">Dialog Functions<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">There are a couple of ways to interact with the user from a script. The keywords are <span class="style_5">confirm</span>, <span class="style_5">request</span>, and <span class="style_5">show</span>. The syntax of these commands are:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><span class="style_5">result = confirm(&lt;string&gt;);                        //return true if user confirms, false if user cancels</span><br /></p>
+                <p class="paragraph_style_4">result = <span class="style_13">confirm</span>(&lt;<span class="style_13">string</span>&gt;,&lt;#secs&gt;);         //return false after # seconds if the user fails respond<br /></p>
+                <p class="Body"><span class="style_5">result = request(&lt;var1, var2, .... varN);    //opens dialog with textfields for the variables. <br /></span></p>
+                <p class="Body"><span class="style_5">                                                                //Changes are ignored if the user selects cancel.</span><br /></p>
+                <p class="paragraph_style_5">ptr = show (&lt;var1, var2, .... varN);          //opens a dialog displaying the values. <br /></p>
+                <p class="paragraph_style_5">                                                                //Returns a pointer of type NSWindowController).<br /></p>
+                <p class="paragraph_style_5"><br /></p>
+                <p class="paragraph_style_5"><span class="style_14">To update the show dialog do:  </span>             [ptr refresh];<br /></p>
+                <p class="paragraph_style_5"><span class="style_14">To set the title of the show dialog: </span>         [[ptr window] setTitle:”New Title”];<br /></p>
+                <p class="paragraph_style_5"><br /></p>
+                <p class="paragraph_style">Persistent Data<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">It is possible to have data that is persistent across ORCA restarts by using functions in the scripting object. As long as ORCA is saved, the data that is stored using those functions will be available from the configuration file from the scripting object that saved the data. As an example:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_13"><span class="style_15">function</span> main() {<br /></p>
+                <p class="paragraph_style_13">  s = <span class="style_15">find</span>(ORScriptTaskModel,1);<br /></p>
+                <p class="paragraph_style_13">  [s setStoredObject:666 forKey:<span class="style_16">&quot;test&quot;</span>]; <br /></p>
+                <p class="paragraph_style_13">  <span class="style_15">print</span> <span class="style_16">&quot;got: &quot;</span>,[s storedObjectWithKey:<span class="style_16">&quot;test&quot;</span>];<br /></p>
+                <p class="paragraph_style_13">}<br /></p>
+                <p class="paragraph_style_14"><br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style">Temporary Globally Available Data<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">It is possible to have data that is accessible by other ORCA objects by using functions in the scripting object. As an example:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_15"><span class="style_15">function</span> main() {<br /></p>
+                <p class="paragraph_style_15">  s = <span class="style_15">find</span>(ORScriptTaskModel,1);<br /></p>
+                <p class="paragraph_style_15">  [s setTemporaryObject:666 forKey:<span class="style_16">&quot;test&quot;</span>]; <br /></p>
+                <p class="paragraph_style_15">  <span class="style_15">print</span> <span class="style_16">&quot;got: &quot;</span>,[s temporaryObjectWithKey:<span class="style_16">&quot;test&quot;</span>];<br /></p>
+                <p class="paragraph_style_15">}<br /></p>
+                <p class="paragraph_style_13"><br /></p>
+                <p class="Body">This can be used to cache data that can be accessed from other machines running ORCA.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style">Self Inspection<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">There are a few special variable names for accessing internal scripting parameters:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">_func_  //variable holding the function name<br /></p>
+                <p class="Body">_symbols_//variable holding the local symbol table<br /></p>
+                <p class="Body">_globals_//variable holding the global symbol table<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style">Notifications<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">Note that this is an advanced topic. <span class="style_17">Be careful, as you can reek havoc with these calls.</span><br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">It is possible for a  script to react to notifications. The caveat is that the script must have run at least once first in order to be registered for a particular notification <span class="style_5">-OR-</span> another script must have run that does the registration for it.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">The registration is done with the following calls on the script object:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_16">- (<span class="style_18">void</span>) stopOnNotificationName:(<span class="style_19">NSString</span>*)aName fromObject:(<span class="style_18">id</span>)anObject;<br /></p>
+                <p class="paragraph_style_16">- (<span class="style_18">void</span>) runOnNotificationName:(<span class="style_19">NSString</span>*)aName fromObject:(<span class="style_18">id</span>)anObject;<br /></p>
+                <p class="paragraph_style_16">- (<span class="style_18">void</span>) cancelNotificationName:(<span class="style_19">NSString</span>*)aName;<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">Note that if the <span class="style_5">anObject</span> is nil, then all notifications with <span class="style_5">aName</span> will be caught. In general things will behave like Cocoa NSNotifications.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">Example:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_17"><span class="style_15">function</span> main() {<br /></p>
+                <p class="paragraph_style_17">self = <span class="style_15">find</span>(ORScriptTaskModel,1);    <span class="style_20">//find ourself</span><br /></p>
+                <p class="paragraph_style_17">other = <span class="style_15">find</span>(ORScriptTaskModel,2);<span class="style_20"> //some object that we will listen to for a notification</span><br /></p>
+                <p class="paragraph_style_17">[self runOnNotificationName:<span class="style_16">&quot;test&quot;</span> fromObject: other];<span class="style_20"> //our future startup notification</span><br /></p>
+                <p class="paragraph_style_17">[self stopOnNotificationName:<span class="style_16">&quot;stop&quot;</span> fromObject: other];<span class="style_20"> //our stop notification</span><br /></p>
+                <p class="paragraph_style_18">while<span class="style_21">(1){</span><br /></p>
+                <p class="paragraph_style_17"><span class="style_22">            </span><span class="style_23">//do something</span><br /></p>
+                <p class="paragraph_style_17">}<br /></p>
+                <p class="paragraph_style_17">}<br /></p>
+                <p class="paragraph_style"><br /></p>
+                <p class="Body">Scripts can also post a notification (and possibly fake the sender):<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_16">- (<span class="style_18">void</span>) postNotificationName:(<span class="style_19">NSString</span>*)aName;<br /></p>
+                <p class="paragraph_style_16">- (<span class="style_18">void</span>) postNotificationName:(<span class="style_19">NSString</span>*)aName fromObject:(<span class="style_18">id</span>)anObject;<br /></p>
+                <p class="paragraph_style_16">- (<span class="style_18">void</span>) postNotificationName:(<span class="style_19">NSString</span>*)aName fromObject:(<span class="style_18">id</span>)anObject userInfo:(<span class="style_18">id</span>)userInfo;<br /></p>
+                <p class="paragraph_style_14"><br /></p>
+                <p class="Body">Example:<br /></p>
+                <p class="paragraph_style_14"><br /></p>
+                <p class="paragraph_style_17"><span class="style_15">function</span> main() {<br /></p>
+                <p class="paragraph_style_17">self = <span class="style_15">find</span>(ORScriptTaskModel,13);        <span class="style_20"> //find ourself</span><br /></p>
+                <p class="paragraph_style_17">other = <span class="style_15">find</span>(ORScriptTaskModel,1);<span class="style_20">     //some object that we will listen to for a notification</span><br /></p>
+                <p class="paragraph_style_17">[other runOnNotificationName:<span class="style_16">&quot;start&quot;</span> fromObject: self];<span class="style_20"> //some object that will listen for start</span><br /></p>
+                <p class="paragraph_style_17">[other stopOnNotificationName:<span class="style_16">&quot;stop&quot;</span> fromObject: self];<span class="style_20"> //some object that will listen for stop</span><br /></p>
+                <p class="paragraph_style_17"><br /></p>
+                <p class="paragraph_style_17">       [self postNotificationName:<span class="style_16">&quot;start&quot;</span> fromObject:self];<span class="style_20"> //post a notification that will start other object<br /></span></p>
+                <p class="paragraph_style_19">yield(4);<br /></p>
+                <p class="paragraph_style_13">[self postNotificationName:<span class="style_16">&quot;stop&quot;</span> fromObject:self];<span class="style_20"> //post a notification that will stop other object</span><br /></p>
+                <p class="paragraph_style_17">}<br /></p>
+                <p class="paragraph_style_17"><br /></p>
+                <p class="Body">Notice in the above example, the script is registering <span class="style_4">another</span> object and then posting notifications.<br /></p>
+                <p class="paragraph_style_17"><br /></p>
+                <p class="paragraph_style">Couch Database<br /></p>
+                <p class="paragraph_style_17"><br /></p>
+                <p class="Body">Using methods in the scriptIDE object you can insert records into a couch database.<br /></p>
+                <p class="Body">For example the following script (with the name ‘ThresholdFinder’):<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_17"><span class="style_15">function</span> main() {<br /></p>
+                <p class="paragraph_style_17">s = <span class="style_15">find</span>(ORScriptTaskModel,1);<br /></p>
+                <p class="paragraph_style_17">started = <span class="style_15">time</span>();<br /></p>
+                <p class="paragraph_style_20">sleep(5);<br /></p>
+                <p class="paragraph_style_17">ended = <span class="style_15">time</span>();<br /></p>
+                <p class="paragraph_style_17">aRecord = <span class="style_15">@</span>{<span class="style_16">&quot;started&quot;</span>:<span class="style_15">string</span>(started),<span class="style_16">&quot;ended&quot;</span>:<span class="style_15">string</span>(ended)};<br /></p>
+                <p class="paragraph_style_17">[s postCouchDBRecordToHistory:aRecord];<br /></p>
+                <p class="paragraph_style_17">}<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">Will result in the following record being added to your machine’s history database.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_21">{<br /></p>
+                <p class="paragraph_style_22"><span class="style_24">   &quot;</span><span class="style_25">_id</span><span class="style_24">&quot;: </span>&quot;91e883669ce843be4138331be100dad1&quot;<span class="style_24">,<br /></span></p>
+                <p class="paragraph_style_22"><span class="style_24">   &quot;</span><span class="style_25">_rev</span><span class="style_24">&quot;: </span>&quot;1-1a0c0714f8314e5b20c5fc73e900b3d9&quot;<span class="style_24">,<br /></span></p>
+                <p class="paragraph_style_22"><span class="style_24">   &quot;</span><span class="style_25">title</span><span class="style_24">&quot;: </span>&quot;Scripts&quot;<span class="style_24">,<br /></span></p>
+                <p class="paragraph_style_23"><span class="style_24">   &quot;</span><span class="style_25">time</span><span class="style_24">&quot;: </span>1484146651<span class="style_24">,<br /></span></p>
+                <p class="paragraph_style_22"><span class="style_24">   &quot;</span><span class="style_25">scriptName</span><span class="style_24">&quot;: </span>&quot;ThresholdFinder&quot;<span class="style_24">,<br /></span></p>
+                <p class="paragraph_style_23"><span class="style_24">   &quot;</span><span class="style_25">ended</span><span class="style_24">&quot;: </span>1484146651.5913758<span class="style_24">,<br /></span></p>
+                <p class="paragraph_style_23"><span class="style_24">   &quot;</span><span class="style_25">started</span><span class="style_24">&quot;: </span>1484146646.142457<span class="style_24">,<br /></span></p>
+                <p class="paragraph_style_22"><span class="style_24">   &quot;</span><span class="style_25">timestamp</span><span class="style_24">&quot;: </span>&quot;2017/01/11 14:57:31&quot;<span class="style_24"><br /></span></p>
+                <p class="paragraph_style_21">}<br /></p>
+                <p class="paragraph_style_21"><br /></p>
+                <p class="Body">You can also use the method: <br /></p>
+                <p class="Body"><br /></p>
+                <ol>
+                  <li style="line-height: 13px; padding-left: 13px; text-indent: -13px; " class="full-width">
+                    <p style="text-indent: -13px; " class="paragraph_style_24"><span style="font-size: 11px; " class="Bullet">-</span><span style="width: 7px; " class="inline-block"></span>(void) postCouchDBRecordToHistory:(<span class="style_19">NSDictionary</span>*)aRecord;<br /></p>
+                  </li>
+                </ol>
+                <p class="paragraph_style_25"><br /></p>
+                <p class="Body">to insert records into the history database.<br /></p>
+              </div>
+            </div>
+          </div>
+          <div style="height: 13080px; line-height: 13080px; " class="spacer"> </div>
+        </div>
+        <div style="height: 150px; margin-left: 0px; position: relative; width: 700px; z-index: 15; " id="footer_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+

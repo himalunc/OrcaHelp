@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="Generator" content="iWeb 3.0.4" />
+    <meta name="iWeb-Build" content="local-build-20180724" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <meta name="viewport" content="width=700" />
+    <title>Installation</title>
+    <link rel="stylesheet" type="text/css" media="screen,print" href="Installation_files/Installation.css" />
+    <!--[if lt IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='Installation_files/InstallationIE.css'/><![endif]-->
+    <!--[if gte IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='Media/IE8.css'/><![endif]-->
+    <script type="text/javascript" src="Scripts/iWebSite.js"></script>
+    <script type="text/javascript" src="Scripts/Widgets/SharedResources/WidgetCommon.js"></script>
+    <script type="text/javascript" src="Scripts/Widgets/Navbar/navbar.js"></script>
+    <script type="text/javascript" src="Scripts/iWebImage.js"></script>
+    <script type="text/javascript" src="Installation_files/Installation.js"></script>
+  </head>
+  <body style="background: rgb(255, 255, 255); margin: 0pt; " onload="onPageLoad();" onunload="onPageUnload();">
+    <div style="text-align: center; ">
+      <div style="margin-bottom: 0px; margin-left: auto; margin-right: auto; margin-top: 0px; overflow: hidden; position: relative; word-wrap: break-word;  background: transparent; text-align: left; width: 700px; " id="body_content">
+        <div style="margin-left: 0px; position: relative; width: 700px; z-index: 0; " id="nav_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+          <div class="com-apple-iweb-widget-navbar flowDefining" id="widget0" style="margin-left: 35px; margin-top: 0px; opacity: 1.00; position: relative; width: 630px; z-index: 1; ">
+    
+            <div id="widget0-navbar" class="navbar">
+
+      
+              <div id="widget0-bg" class="navbar-bg">
+
+        
+                <ul id="widget0-navbar-list" class="navbar-list">
+ <li></li> 
+</ul>
+                
+      
+</div>
+              
+    
+</div>
+          </div>
+          <script type="text/javascript"><!--//--><![CDATA[//><!--
+new NavBar('widget0', 'Scripts/Widgets/Navbar', 'Scripts/Widgets/SharedResources', '.', {"path-to-root": "", "navbar-css": ".navbar {\n\tfont-family: Arial, sans-serif;\n\tfont-size: 1em;\n\tcolor: #666;\n\tmargin: 9px 0px 6px 0px;\n\tline-height: 30px;\n}\n\n.navbar-bg {\n\ttext-align: center;\n}\n\n.navbar-bg ul {\n\tlist-style: none;\n\tmargin: 0px;\n\tpadding: 0px;\n}\n\n\nli {\n\tlist-style-type: none;\n\tdisplay: inline;\n\tpadding: 0px 10px 0px 10px;\n}\n\n\nli a {\n\ttext-decoration: none;\n\tcolor: #666;\n}\n\nli a:visited {\n\ttext-decoration: none;\n\tcolor: #666;\n}\n\nli a:hover\r{\r\n \tcolor: #463C3C;\n\ttext-decoration: none;\r}\n\n\nli.current-page a\r{\r\t color: #463C3C;\n\ttext-decoration: none;\n\tfont-weight: bold;\r\r}", "current-page-GUID": "FE3009BF-FF21-4907-8B0C-A24375019E34", "isCollectionPage": "NO"});
+//--><!]]></script>
+          <div style="clear: both; height: 0px; line-height: 0px; " class="spacer"> </div>
+        </div>
+        <div style="float: left; height: 0px; line-height: 0px; margin-left: 0px; position: relative; width: 700px; z-index: 10; " id="header_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+          <div style="height: 1px; width: 630px;  height: 1px; left: 35px; position: absolute; top: 3px; width: 630px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 630px; ">
+              <img src="Installation_files/shapeimage_1.jpg" alt="" style="height: 1px; left: 0px; position: absolute; top: 0px; width: 630px; " />
+            </div>
+          </div>
+        </div>
+        <div style="margin-left: 0px; position: relative; width: 700px; z-index: 5; " id="body_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+          <div id="id1" style="height: 2887px; left: 8px; position: absolute; top: 10px; width: 667px; z-index: 1; " class="style_SkipStroke_1 shape-with-text">
+            <div class="text-content graphic_textbox_layout_style_default_External_667_2887" style="padding: 0px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-top: 0pt; " class="paragraph_style"><span class="style"><br /></span></p>
+                <p class="paragraph_style"><span style="line-height: 43px; " class="style_1">ORCA Installation</span><span class="style"><br /></span></p>
+                <p class="paragraph_style"><span class="style"><br /></span></p>
+                <div class="paragraph paragraph_style_1"><div style="height: 128px; width: 128px;  clear: left; float: left; height: 128px; margin: 6px 6px 6px 0px; position: relative; width: 128px; " class="tinyText style_SkipStroke inline-block stroke_0"><img src="Installation_files/metapackage.png" alt="" style="border: none; height: 128px; width: 128px; " /></div><span class="style_2">Directory Structure<br /></span></div>
+                <p class="paragraph_style_1"><span class="style_2"><br /></span></p>
+                <p class="paragraph_style_1">It is preferred that the ORCA directory structure is ~/Dev/ORCA. If you wish you can put ORCA in a shared folder.<br /></p>
+                <p class="paragraph_style_1"><span class="style_3">cd &lt;where/you/want/ORCA&gt;<br /></span></p>
+                <p class="paragraph_style_1"><span class="style_3">mkdir Dev<br /></span></p>
+                <p class="paragraph_style_1"><br /></p>
+                <p class="paragraph_style_1">The instructions below assume that you want to use the ~/Dev structure. You’ll have to modify the paths if you have placed ORCA elsewhere.<br /></p>
+                <p class="paragraph_style_1"><br /></p>
+                <p class="paragraph_style_1"><span class="style_4">12/08/2008.</span> The repository moved from 128.95.100.177 to orca.physics.unc.edu. If you already have ORCA go to the bottom of this page for relocation instructions.<br /></p>
+                <p class="paragraph_style_1"><br /></p>
+                <div class="paragraph paragraph_style_1"><div style="height: 1px; width: 419px;  height: 1px; left: 1px; position: relative; top: 1px; width: 419px; " class="tinyText inline-block"><div style="position: relative; width: 419px; "><img src="Installation_files/shapeimage_2.jpg" alt="" style="height: 1px; left: 0px; position: absolute; top: 0px; width: 419px; " /></div></div><br /></div>
+                <p class="paragraph_style_1"><span style="line-height: 22px; " class="style_5"><br /></span></p>
+                <p class="paragraph_style_1"><span style="line-height: 22px; " class="style_5">SVN</span><br /></p>
+                <p class="paragraph_style_1">To install ORCA, first check that you have svn installed:<br /></p>
+                <p class="paragraph_style_1"><span class="style_3">svn help</span><br /></p>
+                <p class="paragraph_style_1"><br /></p>
+                <p class="paragraph_style_1">**note that svn,if you have it, will probably be in /usr/bin.  Make sure your PATH includes it.<br /></p>
+                <p class="paragraph_style_1"><br /></p>
+                <p class="paragraph_style_1">if you have to install svn, an install package is at:<br /></p>
+                <p class="paragraph_style_1"><br /></p>
+                <p class="paragraph_style_1"><a onclick="window.open(this.href); return false;" title="http://downloads.open.collab.net/binaries.html" href="http://downloads.open.collab.net/binaries.html" onkeypress="window.open(this.href); return false;"><span style="line-height: 17px; " class="style_6">http://downloads.open.collab.net/binaries.html</span><br /></a></p>
+                <p class="paragraph_style_1"><br /></p>
+                <p class="paragraph_style_1">Just download the Mac universal binary at that URL and double-click to install.<br /></p>
+                <p class="paragraph_style_1"><br /></p>
+                <div class="paragraph paragraph_style_1"><div style="height: 1px; width: 419px;  height: 1px; left: 1px; position: relative; top: 1px; width: 419px; " class="tinyText inline-block"><div style="position: relative; width: 419px; "><img src="Installation_files/shapeimage_3.jpg" alt="" style="height: 1px; left: 0px; position: absolute; top: 0px; width: 419px; " /></div></div><br /></div>
+                <p class="paragraph_style_1"><br /></p>
+                <p class="paragraph_style_1"><span style="line-height: 21px; " class="style_7">ORCA:</span><br /></p>
+                <p class="paragraph_style_2">cd ~/Dev<br /></p>
+                <p class="paragraph_style_2">svn co svn://orca.physics.unc.edu/Orca<br /></p>
+                <p class="paragraph_style_2"><br /></p>
+                <p class="paragraph_style_2">Experimental 64-bit version:<br /></p>
+                <p class="paragraph_style_2">cd ~/Dev<br /></p>
+                <p class="paragraph_style_2">svn co svn://orca.physics.unc.edu/Orca64<br /></p>
+                <p class="paragraph_style_2"><br /></p>
+                <div class="paragraph paragraph_style_1"><span style="line-height: 21px; " class="style_7"></span><div style="height: 1px; width: 415px;  height: 1px; left: 1px; position: relative; top: 1px; width: 415px; " class="tinyText inline-block"><div style="position: relative; width: 415px; "><img src="Installation_files/shapeimage_4.jpg" alt="" style="height: 1px; left: 0px; position: absolute; top: 0px; width: 415px; " /></div></div><span class="tinyText"> </span><span style="line-height: 21px; " class="style_7"><br /></span></div>
+                <p class="paragraph_style_1"><span style="line-height: 21px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_1"><span style="line-height: 21px; " class="style_7">Drivers:</span><br /></p>
+                <p class="paragraph_style_2">cd ~/Dev<br /></p>
+                <p class="paragraph_style_2">svn co svn://orca.physics.unc.edu/Drivers<br /></p>
+                <p class="paragraph_style_1"><br /></p>
+                <p class="paragraph_style_1">You’ll then find the various driver package(s) at:<br /></p>
+                <p class="paragraph_style_1">~/Dev/Drivers/Camac Drivers        //CAMAC<br /></p>
+                <p class="paragraph_style_1">~/Dev/Drivers/Pci Drivers              //PCI Bit 3<br /></p>
+                <p class="paragraph_style_1">~/Dev/Drivers/ADU200                  //ADU200 USB relay device<br /></p>
+                <p class="paragraph_style_1">~/Dev/Drivers/NI Drivers                //Intel Mac ENet/100 GPIB drivers<br /></p>
+                <p class="paragraph_style_1"><br /></p>
+                <p class="paragraph_style_1">Note that the NI Driver for PPC is a licensed driver that must be purchased from National Instruments. The Intel Mac version is (for now) free and so we can supply it via our repository.<br /></p>
+                <p class="paragraph_style_1"> <br /></p>
+                <p class="paragraph_style_1">Install the drivers as needed by just clicking on the install packages. If you don’t need a particular driver, there’s no need to install it.<br /></p>
+                <p class="paragraph_style_1"><br /></p>
+                <div class="paragraph paragraph_style_1"><span style="line-height: 21px; " class="style_7"></span><div style="height: 1px; width: 429px;  height: 1px; left: 1px; position: relative; top: 1px; width: 429px; " class="tinyText inline-block"><div style="position: relative; width: 429px; "><img src="Installation_files/shapeimage_5.jpg" alt="" style="height: 1px; left: 0px; margin-top: 1px; position: absolute; top: 0px; width: 429px; " /></div></div><span class="tinyText"> </span><span style="line-height: 21px; " class="style_7"><br /></span></div>
+                <p class="paragraph_style_1"><span style="line-height: 21px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_1"><span style="line-height: 21px; " class="style_7">Orca IB palettes:</span><span class="style_2"><br /></span></p>
+                <p class="paragraph_style_1">**note that you can skip getting the OrcaIBPalette if you are not a developer or do not have to edit .nib files that have the Orca widgets.<br /></p>
+                <p class="paragraph_style_1"><span class="style_2"><br /></span></p>
+                <p class="paragraph_style_1"><span class="style_2">MacOS 10.4:</span><br /></p>
+                <p class="paragraph_style_2">svn co svn://orca.physics.unc.edu/OrcaIBPalette<br /></p>
+                <p class="paragraph_style_2"><br /></p>
+                <p class="paragraph_style_1"><span class="style_2">MacOS 10.5 and greater:</span><br /></p>
+                <p class="paragraph_style_2">svn co svn://orca.physics.unc.edu/OrcaPlugin<br /></p>
+                <p class="paragraph_style_2"><br /></p>
+                <p class="paragraph_style_1"><span class="style_2">MacOS 10.7 and greater:<br /></span></p>
+                <p class="paragraph_style_1">Interface builder plugins are no longer supported. The OrcaPlugin project is now obsolete and is no longer needed. <span class="style_8">As of 10/12/11 do not commit any nib files to the repository using plugins -- they can not be opened using XCode 4. </span>Use the new composite objects for plots, rate displays, etc.<br /></p>
+                <p class="paragraph_style_2"><br /></p>
+                <p class="paragraph_style_2"><br /></p>
+                <div class="paragraph paragraph_style_1"><span style="line-height: 21px; " class="style_7"></span><div style="height: 1px; width: 433px;  height: 1px; left: 1px; position: relative; top: 1px; width: 433px; " class="tinyText inline-block"><div style="position: relative; width: 433px; "><img src="Installation_files/shapeimage_6.jpg" alt="" style="height: 1px; left: 0px; position: absolute; top: 0px; width: 433px; " /></div></div><span class="tinyText"> </span><span style="line-height: 21px; " class="style_7"><br /></span></div>
+                <p class="paragraph_style_1"><br /></p>
+                <p class="paragraph_style_1"><span style="line-height: 21px; " class="style_7">OrcaROOT:</span><br /></p>
+                <p class="paragraph_style_2">svn co svn://orca.physics.unc.edu/OrcaRoot<br /></p>
+                <p class="paragraph_style_1"><br /></p>
+                <div class="paragraph paragraph_style_1"><span style="line-height: 21px; " class="style_7"></span><div style="height: 1px; width: 433px;  height: 1px; left: 1px; position: relative; top: 1px; width: 433px; " class="tinyText inline-block"><div style="position: relative; width: 433px; "><img src="Installation_files/shapeimage_7.jpg" alt="" style="height: 1px; left: 0px; position: absolute; top: 0px; width: 433px; " /></div></div><span class="tinyText"> </span><span style="line-height: 21px; " class="style_7"><br /></span></div>
+                <p class="paragraph_style_1"><span style="line-height: 21px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_1"><span style="line-height: 21px; " class="style_7">To use svn from XCode 5:</span><br /></p>
+                <p class="paragraph_style_1">If you are upgrading from XCode 4 and had it set up for svn, then there should be nothing that you have to do. Otherwise, do the following:<br /></p>
+                <ol>
+                  <li style="line-height: 17px; padding-left: 18px; text-indent: -18px; " class="full-width" value="1">
+                    <p style="text-indent: -18px; " class="paragraph_style_3"><span style="font-size: 15px; " class="Bullet">1)</span><span style="width: 4px; " class="inline-block"></span>Open Orca.xcodeproj<br /></p>
+                  </li>
+                  <li style="line-height: 17px; padding-left: 18px; text-indent: -18px; " class="full-width" value="2">
+                    <p style="text-indent: -18px; " class="paragraph_style_3"><span style="font-size: 15px; " class="Bullet">2)</span><span style="width: 4px; " class="inline-block"></span>Open the XCode preferences and go to the ‘Accounts’ tab<br /></p>
+                  </li>
+                  <li style="line-height: 17px; padding-left: 18px; text-indent: -18px; " class="full-width" value="3">
+                    <p style="text-indent: -18px; " class="paragraph_style_3"><span style="font-size: 15px; " class="Bullet">3)</span><span style="width: 4px; " class="inline-block"></span>click the ‘+’ sign on the bottom of the left-hand window and add an svn repository<br /></p>
+                  </li>
+                  <li style="line-height: 17px; padding-left: 18px; text-indent: -18px; " class="full-width" value="4">
+                    <p style="text-indent: -18px; " class="paragraph_style_3"><span style="font-size: 15px; " class="Bullet">4)</span><span style="width: 4px; " class="inline-block"></span>fill in the repository address with “svn://orca.physics.unc.edu/Orca”<br /></p>
+                  </li>
+                  <li style="line-height: 17px; padding-left: 18px; text-indent: -18px; " class="full-width" value="5">
+                    <p style="text-indent: -18px; " class="paragraph_style_3"><span style="font-size: 15px; " class="Bullet">5)</span><span style="width: 4px; " class="inline-block"></span>enter the user name and password if you have commit privileges<br /></p>
+                  </li>
+                  <li style="line-height: 17px; padding-left: 18px; text-indent: -18px; " class="full-width" value="6">
+                    <p style="text-indent: -18px; " class="paragraph_style_3"><span style="font-size: 15px; " class="Bullet">6)</span><span style="width: 4px; " class="inline-block"></span>enter Orca in the description<br /></p>
+                  </li>
+                </ol>
+                <p class="paragraph_style_1"><span style="line-height: 21px; " class="style_7"><br /></span></p>
+                <p class="paragraph_style_1"><span style="line-height: 21px; " class="style_7">To use svn from XCode 4:</span><br /></p>
+                <p class="paragraph_style_1">Version control should now work from XCode like always, but you should check that subversion is enabled:<br /></p>
+                <p class="paragraph_style_1">1) Open Orca.xcodeproj.<br /></p>
+                <p class="paragraph_style_1">2) In the left-hand column list of files, highlight the first item in the list (Orca) and get Info (Cmd-I).<br /></p>
+                <p class="paragraph_style_1">3) In the Info Dialog click SCM<br /></p>
+                <p class="paragraph_style_1">4) At the bottom, Enable SCM if not already enabled<br /></p>
+                <p class="paragraph_style_1">5) select Subversion in the SCM System popup if not already selected<br /></p>
+                <p class="paragraph_style_1">*<br /></p>
+                <p class="paragraph_style_1"><span class="style_2">Some svn command line examples:</span><br /></p>
+                <p class="paragraph_style_1"><br /></p>
+                <p class="paragraph_style_2">svn status Orca        //lists all files you've modified<br /></p>
+                <p class="paragraph_style_2">svn update Orca    //to do a full update (project and all)<br /></p>
+                <p class="paragraph_style_2"><br /></p>
+                <p class="paragraph_style_2">svn remove aFileOrFolder//remove a file or folder<br /></p>
+                <p class="paragraph_style_2">svn commit aFileOrFolder -m 'message'//a typical commit<br /></p>
+                <p class="paragraph_style_1"><br /></p>
+                <p class="paragraph_style_1">--you should be prompted for a passwd (and possibly a username if you are running from an account different from your authorization username that you gave me.)<br /></p>
+                <p class="paragraph_style_1"><br /></p>
+                <p class="paragraph_style_2">svn add aFile//add a file to the repository<br /></p>
+                <p class="paragraph_style_2"><br /></p>
+                <p class="paragraph_style_1"><br /></p>
+                <p class="paragraph_style_1">if you set the env variable SVN_EDITOR, you don't have to include a message and can just do:<br /></p>
+                <p class="paragraph_style_1"><br /></p>
+                <p class="paragraph_style_2">svn commit aFileOrFolder<br /></p>
+                <p class="paragraph_style_1"><br /></p>
+                <p class="paragraph_style_1">There are extensive svn tutorials on the web also.<br /></p>
+                <p class="paragraph_style_1"><br /></p>
+                <p class="paragraph_style_1"><br /></p>
+                <p class="paragraph_style_1">Some final notes for users with r/w privileges:<br /></p>
+                <p class="paragraph_style_1"><br /></p>
+                <p class="paragraph_style_1">You might want to edit the file ~/.subversion/config and tell svn to ignore certain files:<br /></p>
+                <p class="paragraph_style_1">Search for &quot;global-ignores&quot; and edit as needed. Mine looks like this:<br /></p>
+                <p class="paragraph_style_1"><br /></p>
+                <p class="paragraph_style_1">global-ignores = *.zip *.map build CVS *.site *~.* *.o *.lo *.la #*# .*.rej *.rej .*~ *~ .#* .DS_Store<br /></p>
+                <p class="paragraph_style_1"><br /></p>
+                <p class="paragraph_style_1">This keeps me from adding, for example, the 'build' folders to the repository by accident...<br /></p>
+                <p class="paragraph_style_1"><br /></p>
+                <p class="paragraph_style_1">Also, I had a case on one machine where I couldn't commit from XCode until I had committed one file via the command line. After that the username and password were cached and it worked from XCode. <br /></p>
+                <p class="paragraph_style_1"><br /></p>
+                <p class="paragraph_style_1"><br /></p>
+                <p class="paragraph_style_1"><span style="line-height: 21px; " class="style_7">To relocate from the old repository to the new one: <br /></span></p>
+                <p class="paragraph_style_1"><br /></p>
+                <p class="paragraph_style_1">The new repository machine is orca.physics.unc.edu. The old repository at 128.95.100.177 has been renamed and is no longer reachable.<br /></p>
+                <p class="paragraph_style_1"><br /></p>
+                <p class="paragraph_style_1">Switching over to the new location is easy and you basically have two options.  Assuming you have everything in ~/Dev<br /></p>
+                <p class="paragraph_style_1"><br /></p>
+                <p class="paragraph_style_1">1) you can just grab new working copies like so:<br /></p>
+                <p class="paragraph_style_1"> cd ~/Dev<br /></p>
+                <p class="paragraph_style_1"> svn co svn://orca.physics.unc.edu/Orca<br /></p>
+                <p class="paragraph_style_1"> svn co svn://orca.physics.unc.edu/OrcaPlugin<br /></p>
+                <p class="paragraph_style_1"> svn co svn://orca.physics.unc.edu/Drivers<br /></p>
+                <p class="paragraph_style_1"><br /></p>
+                <p class="paragraph_style_1">2) or you can use the svn switch command:<br /></p>
+                <p class="paragraph_style_1">cd ~/Dev/Orca<br /></p>
+                <p class="paragraph_style_1">svn switch --relocate svn://128.95.100.177/Orca svn://orca.physics.unc.edu/Orca<br /></p>
+                <p class="paragraph_style_1">cd ~/Dev/OrcaPlugin<br /></p>
+                <p class="paragraph_style_1">svn switch --relocate svn://128.95.100.177/OrcaPlugin svn://orca.physics.unc.edu/OrcaPlugin<br /></p>
+                <p class="paragraph_style_1">cd ~/Dev/Drivers<br /></p>
+                <p class="paragraph_style_1">svn switch --relocate svn://128.95.100.177/Drivers svn://orca.physics.unc.edu/Drivers<br /></p>
+                <p class="paragraph_style_1"><br /></p>
+                <p class="paragraph_style_1">Note that if you are a developer and have un-committed changes, you will want to use option #2. Also there are other trees in the repository, like OrcaRoot, just continue the pattern for anything that I didn't mention.<br /></p>
+                <p class="paragraph_style_1"><br /></p>
+                <p class="paragraph_style_1">Also, if you use XCode for your svn access don't forget to update the svn repository url configuration there. And note that you will have to re-enter your password in the XCode SCM configure dialog.<br /></p>
+                <p class="paragraph_style_1"><br /></p>
+                <p class="paragraph_style_1">If you have any trouble with the relocation feel free to contact <a title="mailto:mhowe@physics.unc.edu?subject=svn help" href="mailto:tcald@.unc.edu?subject=svn%20help">Tom Caldwell</a>.<br /></p>
+              </div>
+              <div style="clear: both; height: 0px; line-height: 0px; " class="tinyText"> </div>
+            </div>
+          </div>
+          <div style="height: 2897px; line-height: 2897px; " class="spacer"> </div>
+        </div>
+        <div style="height: 150px; margin-left: 0px; position: relative; width: 700px; z-index: 15; " id="footer_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
